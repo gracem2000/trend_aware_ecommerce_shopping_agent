@@ -71,7 +71,18 @@ def product_card_html(rec: Dict[str, Any]) -> str:
 
     orig_html = f'<span class="pc-orig">¥{esc(orig)}</span>' if (orig and orig > price) else ""
     tags_html = "".join(f'<span class="pc-tag">#{esc(t)}</span>' for t in tags)
-    scene_html = f'<div class="pc-scene">#{esc(scene.get("title", ""))}</div>' if scene.get("title") else ""
+    scene_title = scene.get("title", "")
+    scene_extra = ""
+    if scene_title:
+        bits = []
+        if scene.get("target_population"):
+            bits.append(f"👤 {esc(scene['target_population'])}")
+        if scene.get("trigger_event"):
+            bits.append(f"🎯 {esc(str(scene['trigger_event'])[:20])}")
+        extra = f'<span class="pc-scene-extra">{" · ".join(bits)}</span>' if bits else ""
+        scene_html = f'<div class="pc-scene">#{esc(scene_title)}{extra}</div>'
+    else:
+        scene_html = ""
     reason_html = f'<div class="pc-reason">{esc(rec.get("reason", ""))}</div>' if rec.get("reason") else ""
 
     return f"""

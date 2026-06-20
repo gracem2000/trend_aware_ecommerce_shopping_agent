@@ -12,19 +12,21 @@
 ```
 app.py                # Streamlit 入口（页面编排）
 core/                 # 后端（不依赖 Streamlit，可单测）
-  config.py           # 配置（环境变量）
-  database.py         # SQLite engine + Session + WAL + init_db
-  models.py           # ORM（7 张表）
-  repository.py       # 数据访问层（所有 DB 读写，写用锁串行）
-  seed.py             # 种子商品/场景 + Agent 定义
-  llm.py              # LLMClient 抽象 + MockLLMClient（可替换接口）
+  config.py           # 配置（环境变量，含 GLM/感知层参数）
+  database.py         # SQLite engine + Session + WAL + init_db + _migrate(补列)
+  models.py           # ORM（7 张表，Scene 含 JD 吸收的 6 个丰富字段）
+  repository.py       # 数据访问层（所有 DB 读写，写用锁串行）+ insert_scene
+  seed.py             # 种子：优先 data/products.json(300)，回退内置 12 条
+  llm.py              # LLMClient 抽象 + MockLLMClient + get_llm() 工厂（mock/glm）
+  llm_glm.py          # GLM 真实实现（zai-sdk，吸收自 JD；无 key 不加载）
   pipeline.py         # run_pipeline + 后台调度线程 + 状态持久化
-  agents/             # sense/match/copy/deliver（各一个同步 run()）
+  perception/         # 感知层（吸收自 JD）：hot/seasonal/dedup/scene_builder
+  agents/             # sense(真实挖掘)/match(原理化打分)/copy/deliver
 ui/                   # Streamlit 界面
   styles.py           # 全局 CSS（现代极简风）
   components.py       # 商品卡/Agent卡/状态条 HTML 渲染
   live.py             # st.fragment 定时刷新（实时日志）
-data/                 # SQLite 文件（不提交，PaaS 挂持久卷）
+data/                 # products.json(300)+festivals.json(提交) + app.db(运行时,gitignore)
 ```
 
 ## 本地运行
@@ -41,6 +43,8 @@ streamlit run app.py      # http://localhost:8501
 - **时区**：DB 存 naive UTC（`now_utc()`），UI 展示转东八区（`ui/components.py:fmt_time`）。
 - **流水线状态**：`running` 是进程内标志；`last_run_at`/`next_run_at`/`last_status` 持久化在 `system_meta` 表（重启不丢）。
 - **单进程**：不要多副本运行（调度器会重复、SQLite 写竞争）。
+- **LLM/感知层**：`LLM_PROVIDER=glm`+`ZHIPU_API_KEY` 开真实 GLM（`core/llm_glm.py`），否则 mock。感知 Agent 抓百度热搜失败→回退内置热点，GLM 失败→返回空场景，**始终可演示**。场景挖掘/去重/时节逻辑在 `core/perception/`。
+- **Scene 迁移**：JD 吸收的 6 个新字段由 `database._migrate()` 自动补列（`ALTER TABLE`），老库平滑升级。
 
 ## 常见改动
 - **加商品/场景**：改 `core/seed.py` 的 `INITIAL_PRODUCTS`/`INITIAL_SCENES`，删 `data/app.db` 重启重新种子。

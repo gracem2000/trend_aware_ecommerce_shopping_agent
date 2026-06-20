@@ -35,7 +35,14 @@ class Scene(Base):
     target_user: Mapped[str] = mapped_column(String(200), nullable=False, comment="目标用户")
     confidence: Mapped[float] = mapped_column(Float, nullable=False, default=0.0, comment="置信度 0-1")
     keywords: Mapped[Optional[list]] = mapped_column(JSON, nullable=True, comment="搜索关键词数组")
-    source_hotspot: Mapped[Optional[str]] = mapped_column(String(500), nullable=True, comment="来源热点标题")
+    source_hotspot: Mapped[Optional[str]] = mapped_column(String(500), nullable=True, comment="来源热点/主题原文")
+    # —— 吸收自 JD 的丰富字段（迁移补列，老库可为空）——
+    scene_type: Mapped[Optional[str]] = mapped_column(String(50), nullable=True, comment="场景类型：赛事/热点/节日/季节/生活")
+    trigger_event: Mapped[Optional[str]] = mapped_column(String(300), nullable=True, comment="触发事件")
+    temporal_scope: Mapped[Optional[str]] = mapped_column(String(100), nullable=True, comment="时间范围")
+    geo_scope: Mapped[Optional[str]] = mapped_column(String(50), nullable=True, comment="地理范围")
+    user_intent: Mapped[Optional[str]] = mapped_column(Text, nullable=True, comment="用户意图描述")
+    source: Mapped[Optional[str]] = mapped_column(String(20), nullable=True, comment="来源：hotspot/seasonal/manual/seed")
     created_at: Mapped[datetime] = mapped_column(DateTime, server_default=func.now(), nullable=False)
     expires_at: Mapped[Optional[datetime]] = mapped_column(DateTime, nullable=True, comment="时效过期时间")
 

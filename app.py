@@ -57,11 +57,14 @@ def _set_query(title: str) -> None:
     st.session_state.query = title
 
 
+_SCENES_SRC_ICON = {"seasonal": "📅", "hotspot": "🔥", "manual": "✍️", "seed": "🔥"}
+
 scenes = r.get_scenes(6)
 if scenes:
     cols = st.columns(len(scenes))
     for col, sc in zip(cols, scenes):
-        col.button(f"#{sc['title']}", key=f"scene_{sc['id']}",
+        icon = _SCENES_SRC_ICON.get(sc.get("source"), "🔥")
+        col.button(f"{icon} {sc['title']}", key=f"scene_{sc['id']}",
                    use_container_width=True, type="secondary",
                    on_click=_set_query, args=(sc["title"],))
 

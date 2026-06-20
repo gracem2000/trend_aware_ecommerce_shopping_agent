@@ -1,0 +1,5701 @@
+[
+  {
+    "sku_id": "JD-10001",
+    "title": "青岛啤酒经典10度500ml*24听",
+    "price": 79.9,
+    "original_price": 104.0,
+    "shop_name": "酒水饮料专营店",
+    "good_rate": "96%",
+    "sales": "0.7万",
+    "category": "酒水饮料",
+    "icon_emoji": "🥤",
+    "bg_color": "#5cd65c",
+    "tags": [
+      "啤酒",
+      "聚会",
+      "世界杯",
+      "看球",
+      "酒精"
+    ]
+  },
+  {
+    "sku_id": "JD-10002",
+    "title": "乐事薯片原味黄瓜味混合装200g",
+    "price": 15.9,
+    "original_price": 21.0,
+    "shop_name": "休闲零食专营店",
+    "good_rate": "98%",
+    "sales": "4.6万",
+    "category": "休闲零食",
+    "icon_emoji": "🍿",
+    "bg_color": "#ffd633",
+    "tags": [
+      "薯片",
+      "零食",
+      "看剧",
+      "聚会",
+      "膨化"
+    ]
+  },
+  {
+    "sku_id": "JD-10003",
+    "title": "Swisse 斯维诗 护肝片 180片",
+    "price": 128.0,
+    "original_price": 166.0,
+    "shop_name": "医疗保健专营店",
+    "good_rate": "97%",
+    "sales": "13.3万",
+    "category": "医疗保健",
+    "icon_emoji": "💊",
+    "bg_color": "#3aaaff",
+    "tags": [
+      "护肝",
+      "熬夜",
+      "解酒",
+      "保健",
+      "维生素"
+    ]
+  },
+  {
+    "sku_id": "JD-10004",
+    "title": "泡泡玛特 Labubu 世界杯系列盲盒",
+    "price": 399.0,
+    "original_price": 519.0,
+    "shop_name": "潮玩手办专营店",
+    "good_rate": "96%",
+    "sales": "10.8万",
+    "category": "潮玩手办",
+    "icon_emoji": "🎁",
+    "bg_color": "#c084fc",
+    "tags": [
+      "盲盒",
+      "拉布布",
+      "世界杯",
+      "收藏",
+      "手办"
+    ]
+  },
+  {
+    "sku_id": "JD-10005",
+    "title": "哈啤(Harbin) 冰爽啤酒500ml*18罐",
+    "price": 59.9,
+    "original_price": 78.0,
+    "shop_name": "酒水饮料专营店",
+    "good_rate": "96%",
+    "sales": "0.8万",
+    "category": "酒水饮料",
+    "icon_emoji": "🥤",
+    "bg_color": "#5cd65c",
+    "tags": [
+      "啤酒",
+      "聚会",
+      "世界杯",
+      "冰爽",
+      "酒精"
+    ]
+  },
+  {
+    "sku_id": "JD-10006",
+    "title": "可口可乐汽水330ml*24罐",
+    "price": 49.9,
+    "original_price": 65.0,
+    "shop_name": "酒水饮料专营店",
+    "good_rate": "97%",
+    "sales": "4.4万",
+    "category": "酒水饮料",
+    "icon_emoji": "🥤",
+    "bg_color": "#5cd65c",
+    "tags": [
+      "可乐",
+      "碳酸",
+      "聚会",
+      "饮料",
+      "冰爽"
+    ]
+  },
+  {
+    "sku_id": "JD-10007",
+    "title": "三只松鼠坚果大礼包1680g",
+    "price": 89.0,
+    "original_price": 116.0,
+    "shop_name": "休闲零食专营店",
+    "good_rate": "96%",
+    "sales": "10.2万",
+    "category": "休闲零食",
+    "icon_emoji": "🍿",
+    "bg_color": "#ffd633",
+    "tags": [
+      "坚果",
+      "零食",
+      "聚会",
+      "送礼",
+      "健康"
+    ]
+  },
+  {
+    "sku_id": "JD-10008",
+    "title": "良品铺子卤鸭脖200g",
+    "price": 29.9,
+    "original_price": 39.0,
+    "shop_name": "休闲零食专营店",
+    "good_rate": "99%",
+    "sales": "4.2万",
+    "category": "休闲零食",
+    "icon_emoji": "🍿",
+    "bg_color": "#ffd633",
+    "tags": [
+      "卤味",
+      "鸭脖",
+      "零食",
+      "聚会",
+      "辣味"
+    ]
+  },
+  {
+    "sku_id": "JD-10009",
+    "title": "红牛能量饮料250ml*24罐",
+    "price": 138.0,
+    "original_price": 179.0,
+    "shop_name": "酒水饮料专营店",
+    "good_rate": "98%",
+    "sales": "14.6万",
+    "category": "酒水饮料",
+    "icon_emoji": "🥤",
+    "bg_color": "#5cd65c",
+    "tags": [
+      "功能饮料",
+      "能量",
+      "熬夜",
+      "提神",
+      "保健"
+    ]
+  },
+  {
+    "sku_id": "JD-10010",
+    "title": "百草味麻辣小龙虾尾500g",
+    "price": 79.9,
+    "original_price": 104.0,
+    "shop_name": "休闲零食专营店",
+    "good_rate": "96%",
+    "sales": "13.7万",
+    "category": "休闲零食",
+    "icon_emoji": "🍿",
+    "bg_color": "#ffd633",
+    "tags": [
+      "小龙虾",
+      "零食",
+      "聚会",
+      "麻辣",
+      "海鲜"
+    ]
+  },
+  {
+    "sku_id": "JD-10011",
+    "title": "小米65英寸4K智能电视",
+    "price": 2999.0,
+    "original_price": 3899.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "97%",
+    "sales": "12.7万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "电视",
+      "4K",
+      "智能",
+      "观赛",
+      "影音"
+    ]
+  },
+  {
+    "sku_id": "JD-10012",
+    "title": "JBL蓝牙音箱便携式",
+    "price": 399.0,
+    "original_price": 519.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "98%",
+    "sales": "5.2万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "音箱",
+      "蓝牙",
+      "便携",
+      "音响",
+      "音乐"
+    ]
+  },
+  {
+    "sku_id": "JD-10013",
+    "title": "泰国进口芒果干500g",
+    "price": 39.9,
+    "original_price": 52.0,
+    "shop_name": "休闲零食专营店",
+    "good_rate": "97%",
+    "sales": "17.2万",
+    "category": "休闲零食",
+    "icon_emoji": "🍿",
+    "bg_color": "#ffd633",
+    "tags": [
+      "芒果干",
+      "水果",
+      "零食",
+      "健康",
+      "进口"
+    ]
+  },
+  {
+    "sku_id": "JD-10014",
+    "title": "德芙巧克力礼盒756g",
+    "price": 88.0,
+    "original_price": 114.0,
+    "shop_name": "休闲零食专营店",
+    "good_rate": "98%",
+    "sales": "2.1万",
+    "category": "休闲零食",
+    "icon_emoji": "🍿",
+    "bg_color": "#ffd633",
+    "tags": [
+      "巧克力",
+      "甜品",
+      "送礼",
+      "情人节",
+      "零食"
+    ]
+  },
+  {
+    "sku_id": "JD-10015",
+    "title": "康师傅冰红茶500ml*24瓶",
+    "price": 42.9,
+    "original_price": 56.0,
+    "shop_name": "酒水饮料专营店",
+    "good_rate": "99%",
+    "sales": "2.0万",
+    "category": "酒水饮料",
+    "icon_emoji": "🥤",
+    "bg_color": "#5cd65c",
+    "tags": [
+      "茶饮料",
+      "冰爽",
+      "饮料",
+      "聚会",
+      "柠檬"
+    ]
+  },
+  {
+    "sku_id": "JD-10016",
+    "title": "星巴克咖啡豆200g",
+    "price": 128.0,
+    "original_price": 166.0,
+    "shop_name": "酒水饮料专营店",
+    "good_rate": "98%",
+    "sales": "11.0万",
+    "category": "酒水饮料",
+    "icon_emoji": "🥤",
+    "bg_color": "#5cd65c",
+    "tags": [
+      "咖啡",
+      "提神",
+      "熬夜",
+      "品质",
+      "进口"
+    ]
+  },
+  {
+    "sku_id": "JD-10017",
+    "title": "奥利奥饼干原味592g",
+    "price": 18.9,
+    "original_price": 25.0,
+    "shop_name": "休闲零食专营店",
+    "good_rate": "96%",
+    "sales": "13.2万",
+    "category": "休闲零食",
+    "icon_emoji": "🍿",
+    "bg_color": "#ffd633",
+    "tags": [
+      "饼干",
+      "零食",
+      "甜食",
+      "聚会",
+      "牛奶"
+    ]
+  },
+  {
+    "sku_id": "JD-10018",
+    "title": "百威啤酒500ml*24听",
+    "price": 99.0,
+    "original_price": 129.0,
+    "shop_name": "酒水饮料专营店",
+    "good_rate": "96%",
+    "sales": "17.5万",
+    "category": "酒水饮料",
+    "icon_emoji": "🥤",
+    "bg_color": "#5cd65c",
+    "tags": [
+      "啤酒",
+      "聚会",
+      "世界杯",
+      "进口",
+      "酒精"
+    ]
+  },
+  {
+    "sku_id": "JD-10019",
+    "title": "自然堂男士护肤套装",
+    "price": 168.0,
+    "original_price": 218.0,
+    "shop_name": "美妆护肤专营店",
+    "good_rate": "99%",
+    "sales": "1.7万",
+    "category": "美妆护肤",
+    "icon_emoji": "💄",
+    "bg_color": "#ff6b9d",
+    "tags": [
+      "护肤",
+      "男士",
+      "套装",
+      "保养",
+      "礼物"
+    ]
+  },
+  {
+    "sku_id": "JD-10020",
+    "title": "冈本避孕安全套10片装",
+    "price": 39.9,
+    "original_price": 52.0,
+    "shop_name": "成人用品专营店",
+    "good_rate": "98%",
+    "sales": "15.0万",
+    "category": "成人用品",
+    "icon_emoji": "🎀",
+    "bg_color": "#f472b6",
+    "tags": [
+      "避孕",
+      "安全",
+      "成人",
+      "健康"
+    ]
+  },
+  {
+    "sku_id": "JD-10021",
+    "title": "医用外科口罩50只",
+    "price": 19.9,
+    "original_price": 26.0,
+    "shop_name": "医疗保健专营店",
+    "good_rate": "98%",
+    "sales": "10.5万",
+    "category": "医疗保健",
+    "icon_emoji": "💊",
+    "bg_color": "#3aaaff",
+    "tags": [
+      "口罩",
+      "防护",
+      "医疗",
+      "健康",
+      "防疫"
+    ]
+  },
+  {
+    "sku_id": "JD-10022",
+    "title": "任天堂Switch游戏机",
+    "price": 2099.0,
+    "original_price": 2729.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "96%",
+    "sales": "1.1万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "游戏机",
+      "Switch",
+      "娱乐",
+      "聚会",
+      "游戏"
+    ]
+  },
+  {
+    "sku_id": "JD-10023",
+    "title": "高端人体工学椅",
+    "price": 899.0,
+    "original_price": 1169.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "97%",
+    "sales": "14.0万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "椅子",
+      "办公",
+      "健康",
+      "舒适",
+      "家居"
+    ]
+  },
+  {
+    "sku_id": "JD-10024",
+    "title": "加拿大原大冰川矿泉水4L*4桶",
+    "price": 59.9,
+    "original_price": 78.0,
+    "shop_name": "酒水饮料专营店",
+    "good_rate": "96%",
+    "sales": "15.4万",
+    "category": "酒水饮料",
+    "icon_emoji": "🥤",
+    "bg_color": "#5cd65c",
+    "tags": [
+      "矿泉水",
+      "健康",
+      "进口",
+      "饮用水",
+      "家庭"
+    ]
+  },
+  {
+    "sku_id": "JD-10025",
+    "title": "双汇火腿肠王中王500g",
+    "price": 15.9,
+    "original_price": 21.0,
+    "shop_name": "休闲零食专营店",
+    "good_rate": "96%",
+    "sales": "7.0万",
+    "category": "休闲零食",
+    "icon_emoji": "🍿",
+    "bg_color": "#ffd633",
+    "tags": [
+      "火腿肠",
+      "零食",
+      "方便",
+      "肉类",
+      "聚会"
+    ]
+  },
+  {
+    "sku_id": "JD-10026",
+    "title": "六神花露水180ml",
+    "price": 12.9,
+    "original_price": 17.0,
+    "shop_name": "美妆护肤专营店",
+    "good_rate": "99%",
+    "sales": "11.6万",
+    "category": "美妆护肤",
+    "icon_emoji": "💄",
+    "bg_color": "#ff6b9d",
+    "tags": [
+      "花露水",
+      "驱蚊",
+      "夏日",
+      "清凉",
+      "传统"
+    ]
+  },
+  {
+    "sku_id": "JD-10027",
+    "title": "椰树椰汁245ml*20罐",
+    "price": 49.9,
+    "original_price": 65.0,
+    "shop_name": "酒水饮料专营店",
+    "good_rate": "98%",
+    "sales": "3.2万",
+    "category": "酒水饮料",
+    "icon_emoji": "🥤",
+    "bg_color": "#5cd65c",
+    "tags": [
+      "椰汁",
+      "饮料",
+      "聚会",
+      "健康",
+      "植物蛋白"
+    ]
+  },
+  {
+    "sku_id": "JD-10028",
+    "title": "旺旺大礼包600g",
+    "price": 29.9,
+    "original_price": 39.0,
+    "shop_name": "休闲零食专营店",
+    "good_rate": "98%",
+    "sales": "4.0万",
+    "category": "休闲零食",
+    "icon_emoji": "🍿",
+    "bg_color": "#ffd633",
+    "tags": [
+      "零食",
+      "旺旺",
+      "礼包",
+      "聚会",
+      "送礼"
+    ]
+  },
+  {
+    "sku_id": "JD-10029",
+    "title": "周黑鸭真空锁鲜装500g",
+    "price": 49.9,
+    "original_price": 65.0,
+    "shop_name": "休闲零食专营店",
+    "good_rate": "98%",
+    "sales": "12.7万",
+    "category": "休闲零食",
+    "icon_emoji": "🍿",
+    "bg_color": "#ffd633",
+    "tags": [
+      "卤味",
+      "鸭脖",
+      "零食",
+      "聚会",
+      "辣味"
+    ]
+  },
+  {
+    "sku_id": "JD-10030",
+    "title": "喜力啤酒500ml*24听",
+    "price": 109.0,
+    "original_price": 142.0,
+    "shop_name": "酒水饮料专营店",
+    "good_rate": "96%",
+    "sales": "11.1万",
+    "category": "酒水饮料",
+    "icon_emoji": "🥤",
+    "bg_color": "#5cd65c",
+    "tags": [
+      "啤酒",
+      "聚会",
+      "世界杯",
+      "进口",
+      "酒精"
+    ]
+  },
+  {
+    "sku_id": "JD-10031",
+    "title": "Keep 瑜伽垫防滑加厚10mm",
+    "price": 89.0,
+    "original_price": 116.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "9.8万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "瑜伽",
+      "健身",
+      "运动",
+      "防滑",
+      "居家"
+    ]
+  },
+  {
+    "sku_id": "JD-10032",
+    "title": "迪卡侬运动腰包跑步臂包",
+    "price": 49.0,
+    "original_price": 64.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "3.2万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "跑步",
+      "运动",
+      "臂包",
+      "健身",
+      "户外"
+    ]
+  },
+  {
+    "sku_id": "JD-10033",
+    "title": "Keep 运动水壶1000ml便携大容量",
+    "price": 39.0,
+    "original_price": 51.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "5.1万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "水壶",
+      "运动",
+      "健身",
+      "便携",
+      "户外"
+    ]
+  },
+  {
+    "sku_id": "JD-10034",
+    "title": "牧高笛露营帐篷双人户外自动",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "12.4万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "露营",
+      "帐篷",
+      "户外",
+      "旅游",
+      "野营"
+    ]
+  },
+  {
+    "sku_id": "JD-10035",
+    "title": "Keep 泡沫轴肌肉放松滚轴",
+    "price": 45.0,
+    "original_price": 58.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "4.4万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "泡沫轴",
+      "放松",
+      "健身",
+      "运动",
+      "按摩"
+    ]
+  },
+  {
+    "sku_id": "JD-10036",
+    "title": "AirPods Pro 2 无线降噪耳机",
+    "price": 1899.0,
+    "original_price": 2469.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "96%",
+    "sales": "14.5万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "耳机",
+      "蓝牙",
+      "苹果",
+      "降噪",
+      "数码"
+    ]
+  },
+  {
+    "sku_id": "JD-10037",
+    "title": "Anker 20000mAh 移动电源充电宝",
+    "price": 159.0,
+    "original_price": 207.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "99%",
+    "sales": "5.0万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "充电宝",
+      "移动电源",
+      "快充",
+      "数码",
+      "便携"
+    ]
+  },
+  {
+    "sku_id": "JD-10038",
+    "title": "小米 Type-C 数据线快充2米",
+    "price": 29.0,
+    "original_price": 38.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "97%",
+    "sales": "16.5万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "数据线",
+      "快充",
+      "Type-C",
+      "数码配件",
+      "小米"
+    ]
+  },
+  {
+    "sku_id": "JD-10039",
+    "title": "华为智能手表GT 4",
+    "price": 1488.0,
+    "original_price": 1934.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "98%",
+    "sales": "4.1万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "智能手表",
+      "运动",
+      "健康",
+      "华为",
+      "可穿戴"
+    ]
+  },
+  {
+    "sku_id": "JD-10040",
+    "title": "罗技 MX Master 3S 无线鼠标",
+    "price": 599.0,
+    "original_price": 779.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "99%",
+    "sales": "7.3万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "鼠标",
+      "无线",
+      "办公",
+      "人体工学",
+      "罗技"
+    ]
+  },
+  {
+    "sku_id": "JD-10041",
+    "title": "飞利浦电动牙刷成人款",
+    "price": 399.0,
+    "original_price": 519.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "99%",
+    "sales": "2.8万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "电动牙刷",
+      "口腔护理",
+      "健康",
+      "飞利浦",
+      "智能"
+    ]
+  },
+  {
+    "sku_id": "JD-10042",
+    "title": "小米空气净化器4 Pro",
+    "price": 1299.0,
+    "original_price": 1689.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "97%",
+    "sales": "4.7万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "空气净化器",
+      "健康",
+      "家电",
+      "除甲醛",
+      "小米"
+    ]
+  },
+  {
+    "sku_id": "JD-10043",
+    "title": "索尼 WH-1000XM5 头戴降噪耳机",
+    "price": 2499.0,
+    "original_price": 3249.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "98%",
+    "sales": "13.5万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "耳机",
+      "降噪",
+      "索尼",
+      "头戴式",
+      "蓝牙"
+    ]
+  },
+  {
+    "sku_id": "JD-10044",
+    "title": "iPhone 15 Pro Max 手机壳硅胶保护套",
+    "price": 59.0,
+    "original_price": 77.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "99%",
+    "sales": "16.2万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "手机壳",
+      "保护套",
+      "苹果",
+      "配件",
+      "硅胶"
+    ]
+  },
+  {
+    "sku_id": "JD-10045",
+    "title": "任天堂 Switch OLED 游戏机",
+    "price": 2599.0,
+    "original_price": 3379.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "99%",
+    "sales": "6.7万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "游戏机",
+      "Switch",
+      "OLED",
+      "任天堂",
+      "娱乐"
+    ]
+  },
+  {
+    "sku_id": "JD-10046",
+    "title": "小米手环8 智能运动手环",
+    "price": 249.0,
+    "original_price": 324.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "97%",
+    "sales": "9.3万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "手环",
+      "智能",
+      "运动",
+      "健康",
+      "小米"
+    ]
+  },
+  {
+    "sku_id": "JD-10047",
+    "title": "戴森 V12 Detect Slim 吸尘器",
+    "price": 4499.0,
+    "original_price": 5849.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "96%",
+    "sales": "13.7万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "吸尘器",
+      "戴森",
+      "无线",
+      "清洁",
+      "家电"
+    ]
+  },
+  {
+    "sku_id": "JD-10048",
+    "title": "GoPro HERO12 运动相机",
+    "price": 3498.0,
+    "original_price": 4547.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "96%",
+    "sales": "3.0万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "运动相机",
+      "GoPro",
+      "户外",
+      "vlog",
+      "防水"
+    ]
+  },
+  {
+    "sku_id": "JD-10049",
+    "title": "美的 1.5匹 变频空调",
+    "price": 2999.0,
+    "original_price": 3899.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "97%",
+    "sales": "14.3万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "空调",
+      "家电",
+      "变频",
+      "美的",
+      "制冷"
+    ]
+  },
+  {
+    "sku_id": "JD-10050",
+    "title": "飞利浦空气炸锅4L大容量",
+    "price": 699.0,
+    "original_price": 909.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "99%",
+    "sales": "10.9万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "空气炸锅",
+      "厨房电器",
+      "健康",
+      "油炸",
+      "飞利浦"
+    ]
+  },
+  {
+    "sku_id": "JD-10051",
+    "title": "爱他美 卓萃 婴儿配方奶粉3段800g",
+    "price": 268.0,
+    "original_price": 348.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "99%",
+    "sales": "7.1万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "奶粉",
+      "婴儿",
+      "爱他美",
+      "营养",
+      "德国"
+    ]
+  },
+  {
+    "sku_id": "JD-10052",
+    "title": "好奇 Huggies 铂金装纸尿裤M码72片",
+    "price": 159.0,
+    "original_price": 207.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "99%",
+    "sales": "9.7万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "纸尿裤",
+      "好奇",
+      "婴儿",
+      "透气",
+      "干爽"
+    ]
+  },
+  {
+    "sku_id": "JD-10053",
+    "title": "帮宝适 Pampers 一级帮纸尿裤L码64片",
+    "price": 129.0,
+    "original_price": 168.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "12.3万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "纸尿裤",
+      "帮宝适",
+      "婴儿",
+      "吸收",
+      "舒适"
+    ]
+  },
+  {
+    "sku_id": "JD-10054",
+    "title": "乐高 LEGO 得宝系列 大颗粒积木",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "12.4万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "积木",
+      "乐高",
+      "玩具",
+      "益智",
+      "早教"
+    ]
+  },
+  {
+    "sku_id": "JD-10055",
+    "title": "费雪 Fisher-Price 婴儿音乐健身架",
+    "price": 199.0,
+    "original_price": 259.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "98%",
+    "sales": "13.9万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "健身架",
+      "婴儿",
+      "费雪",
+      "早教",
+      "玩具"
+    ]
+  },
+  {
+    "sku_id": "JD-10056",
+    "title": "Hape 木质积木益智玩具套装",
+    "price": 159.0,
+    "original_price": 207.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "98%",
+    "sales": "2.3万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "积木",
+      "Hape",
+      "木质",
+      "益智",
+      "早教"
+    ]
+  },
+  {
+    "sku_id": "JD-10057",
+    "title": "babycare 婴儿湿巾80抽×6包",
+    "price": 49.0,
+    "original_price": 64.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "99%",
+    "sales": "3.1万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "湿巾",
+      "婴儿",
+      "babycare",
+      "清洁",
+      "温和"
+    ]
+  },
+  {
+    "sku_id": "JD-10058",
+    "title": "贝亲 Pigeon 宽口径奶嘴240ml",
+    "price": 89.0,
+    "original_price": 116.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "17.2万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "奶瓶",
+      "贝亲",
+      "婴儿",
+      "宽口",
+      "母乳"
+    ]
+  },
+  {
+    "sku_id": "JD-10059",
+    "title": "大王 光羽环贴纸尿裤NB码96片",
+    "price": 139.0,
+    "original_price": 181.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "98%",
+    "sales": "17.5万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "纸尿裤",
+      "大王",
+      "新生儿",
+      "透气",
+      "薄"
+    ]
+  },
+  {
+    "sku_id": "JD-10060",
+    "title": "澳优 海普诺凯 婴儿奶粉1段800g",
+    "price": 358.0,
+    "original_price": 465.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "97%",
+    "sales": "9.3万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "奶粉",
+      "澳优",
+      "婴儿",
+      "荷兰",
+      "乳铁蛋白"
+    ]
+  },
+  {
+    "sku_id": "JD-10061",
+    "title": "小米米家 免安装扫拖机器人",
+    "price": 1499.0,
+    "original_price": 1949.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "96%",
+    "sales": "15.7万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "扫地机器人",
+      "小米",
+      "清洁",
+      "智能",
+      "懒人"
+    ]
+  },
+  {
+    "sku_id": "JD-10062",
+    "title": "IRIS 爱丽思 抽屉式收纳箱三件套",
+    "price": 129.0,
+    "original_price": 168.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "98%",
+    "sales": "15.2万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "收纳箱",
+      "收纳",
+      "整理",
+      "IRIS",
+      "塑料"
+    ]
+  },
+  {
+    "sku_id": "JD-10063",
+    "title": "茶花 塑料洗衣盆大号",
+    "price": 35.0,
+    "original_price": 46.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "97%",
+    "sales": "3.0万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "洗衣盆",
+      "茶花",
+      "家居",
+      "塑料",
+      "实用"
+    ]
+  },
+  {
+    "sku_id": "JD-10064",
+    "title": "妙洁 垃圾袋加厚手提式50只",
+    "price": 19.9,
+    "original_price": 26.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "97%",
+    "sales": "9.8万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "垃圾袋",
+      "妙洁",
+      "家居",
+      "加厚",
+      "清洁"
+    ]
+  },
+  {
+    "sku_id": "JD-10065",
+    "title": "维达 抽纸3层120抽×10包",
+    "price": 39.9,
+    "original_price": 52.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "96%",
+    "sales": "10.9万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "抽纸",
+      "维达",
+      "纸巾",
+      "家居",
+      "生活用纸"
+    ]
+  },
+  {
+    "sku_id": "JD-10066",
+    "title": "蓝月亮 洗衣液3kg装深层洁净",
+    "price": 59.9,
+    "original_price": 78.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "99%",
+    "sales": "0.6万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "洗衣液",
+      "蓝月亮",
+      "清洁",
+      "家居",
+      "除菌"
+    ]
+  },
+  {
+    "sku_id": "JD-10067",
+    "title": "威露士 消毒液除菌液1.8L",
+    "price": 49.9,
+    "original_price": 65.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "98%",
+    "sales": "15.9万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "消毒液",
+      "威露士",
+      "除菌",
+      "清洁",
+      "家居"
+    ]
+  },
+  {
+    "sku_id": "JD-10068",
+    "title": "无印良品 收纳箱带盖大号",
+    "price": 99.0,
+    "original_price": 129.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "98%",
+    "sales": "4.5万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "收纳",
+      "无印良品",
+      "MUJI",
+      "简约",
+      "整理"
+    ]
+  },
+  {
+    "sku_id": "JD-10069",
+    "title": "四季沐歌 太阳能热水器",
+    "price": 2299.0,
+    "original_price": 2989.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "97%",
+    "sales": "15.8万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "热水器",
+      "太阳能",
+      "节能",
+      "环保",
+      "卫浴"
+    ]
+  },
+  {
+    "sku_id": "JD-10070",
+    "title": "全棉时代 棉柔巾抽取式100抽×6包",
+    "price": 59.0,
+    "original_price": 77.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "96%",
+    "sales": "1.8万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "棉柔巾",
+      "全棉时代",
+      "纯棉",
+      "母婴",
+      "温和"
+    ]
+  },
+  {
+    "sku_id": "JD-10071",
+    "title": "立白 洗洁精柠檬1.5kg×2瓶",
+    "price": 29.9,
+    "original_price": 39.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "99%",
+    "sales": "14.7万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "洗洁精",
+      "立白",
+      "厨房",
+      "清洁",
+      "去油"
+    ]
+  },
+  {
+    "sku_id": "JD-10072",
+    "title": "欧莱雅 复颜玻尿酸保湿面膜10片",
+    "price": 139.0,
+    "original_price": 181.0,
+    "shop_name": "美妆护肤专营店",
+    "good_rate": "97%",
+    "sales": "2.6万",
+    "category": "美妆护肤",
+    "icon_emoji": "💄",
+    "bg_color": "#ff6b9d",
+    "tags": [
+      "面膜",
+      "保湿",
+      "欧莱雅",
+      "护肤",
+      "玻尿酸"
+    ]
+  },
+  {
+    "sku_id": "JD-10073",
+    "title": "雅诗兰黛 ANR 小棕瓶精华50ml",
+    "price": 980.0,
+    "original_price": 1274.0,
+    "shop_name": "美妆护肤专营店",
+    "good_rate": "99%",
+    "sales": "17.1万",
+    "category": "美妆护肤",
+    "icon_emoji": "💄",
+    "bg_color": "#ff6b9d",
+    "tags": [
+      "精华",
+      "雅诗兰黛",
+      "抗老",
+      "修护",
+      "高端"
+    ]
+  },
+  {
+    "sku_id": "JD-10074",
+    "title": "兰蔻 菁纯面霜50ml",
+    "price": 1280.0,
+    "original_price": 1664.0,
+    "shop_name": "美妆护肤专营店",
+    "good_rate": "97%",
+    "sales": "5.0万",
+    "category": "美妆护肤",
+    "icon_emoji": "💄",
+    "bg_color": "#ff6b9d",
+    "tags": [
+      "面霜",
+      "兰蔻",
+      "抗老",
+      "保湿",
+      "高端"
+    ]
+  },
+  {
+    "sku_id": "JD-10075",
+    "title": "迪奥 999 烈艳蓝金唇膏口红",
+    "price": 380.0,
+    "original_price": 494.0,
+    "shop_name": "美妆护肤专营店",
+    "good_rate": "99%",
+    "sales": "17.4万",
+    "category": "美妆护肤",
+    "icon_emoji": "💄",
+    "bg_color": "#ff6b9d",
+    "tags": [
+      "口红",
+      "迪奥",
+      "Dior",
+      "彩妆",
+      "正红色"
+    ]
+  },
+  {
+    "sku_id": "JD-10076",
+    "title": "MAC 魅可 子弹头口红 Chili色",
+    "price": 175.0,
+    "original_price": 228.0,
+    "shop_name": "美妆护肤专营店",
+    "good_rate": "97%",
+    "sales": "12.9万",
+    "category": "美妆护肤",
+    "icon_emoji": "💄",
+    "bg_color": "#ff6b9d",
+    "tags": [
+      "口红",
+      "MAC",
+      "魅可",
+      "彩妆",
+      "辣椒红"
+    ]
+  },
+  {
+    "sku_id": "JD-10077",
+    "title": "完美日记 十二色动物眼影盘",
+    "price": 139.0,
+    "original_price": 181.0,
+    "shop_name": "美妆护肤专营店",
+    "good_rate": "99%",
+    "sales": "17.9万",
+    "category": "美妆护肤",
+    "icon_emoji": "💄",
+    "bg_color": "#ff6b9d",
+    "tags": [
+      "眼影",
+      "完美日记",
+      "彩妆",
+      "盘子",
+      "国货"
+    ]
+  },
+  {
+    "sku_id": "JD-10078",
+    "title": "SK-II 神仙水精华230ml",
+    "price": 1690.0,
+    "original_price": 2197.0,
+    "shop_name": "美妆护肤专营店",
+    "good_rate": "98%",
+    "sales": "8.1万",
+    "category": "美妆护肤",
+    "icon_emoji": "💄",
+    "bg_color": "#ff6b9d",
+    "tags": [
+      "精华",
+      "SK-II",
+      "神仙水",
+      "高端",
+      "护肤"
+    ]
+  },
+  {
+    "sku_id": "JD-10079",
+    "title": "资生堂 红腰子精华50ml",
+    "price": 890.0,
+    "original_price": 1157.0,
+    "shop_name": "美妆护肤专营店",
+    "good_rate": "99%",
+    "sales": "2.4万",
+    "category": "美妆护肤",
+    "icon_emoji": "💄",
+    "bg_color": "#ff6b9d",
+    "tags": [
+      "精华",
+      "资生堂",
+      "红腰子",
+      "保湿",
+      "修护"
+    ]
+  },
+  {
+    "sku_id": "JD-10080",
+    "title": "科颜氏 高保湿面霜50ml",
+    "price": 350.0,
+    "original_price": 455.0,
+    "shop_name": "美妆护肤专营店",
+    "good_rate": "97%",
+    "sales": "1.4万",
+    "category": "美妆护肤",
+    "icon_emoji": "💄",
+    "bg_color": "#ff6b9d",
+    "tags": [
+      "面霜",
+      "科颜氏",
+      "保湿",
+      "Kiehl's",
+      "护肤"
+    ]
+  },
+  {
+    "sku_id": "JD-10081",
+    "title": "冰泉 口罩立体防护3层50只",
+    "price": 24.9,
+    "original_price": 32.0,
+    "shop_name": "美妆护肤专营店",
+    "good_rate": "96%",
+    "sales": "10.7万",
+    "category": "美妆护肤",
+    "icon_emoji": "💄",
+    "bg_color": "#ff6b9d",
+    "tags": [
+      "口罩",
+      "防护",
+      "立体",
+      " breathable",
+      "健康"
+    ]
+  },
+  {
+    "sku_id": "JD-10082",
+    "title": "康师傅 红烧牛肉面5连包",
+    "price": 14.9,
+    "original_price": 19.0,
+    "shop_name": "食品饮料专营店",
+    "good_rate": "97%",
+    "sales": "10.7万",
+    "category": "食品饮料",
+    "icon_emoji": "🍱",
+    "bg_color": "#ff8c4d",
+    "tags": [
+      "方便面",
+      "康师傅",
+      "速食",
+      "经典",
+      "红烧"
+    ]
+  },
+  {
+    "sku_id": "JD-10083",
+    "title": "海底捞 番茄火锅底料150g×2",
+    "price": 35.0,
+    "original_price": 46.0,
+    "shop_name": "食品饮料专营店",
+    "good_rate": "96%",
+    "sales": "1.6万",
+    "category": "食品饮料",
+    "icon_emoji": "🍱",
+    "bg_color": "#ff8c4d",
+    "tags": [
+      "火锅底料",
+      "海底捞",
+      "番茄",
+      "调料",
+      "速食"
+    ]
+  },
+  {
+    "sku_id": "JD-10084",
+    "title": "海底捞 牛油火锅底料150g×2",
+    "price": 38.0,
+    "original_price": 49.0,
+    "shop_name": "食品饮料专营店",
+    "good_rate": "96%",
+    "sales": "4.4万",
+    "category": "食品饮料",
+    "icon_emoji": "🍱",
+    "bg_color": "#ff8c4d",
+    "tags": [
+      "火锅底料",
+      "海底捞",
+      "牛油",
+      "麻辣",
+      "重庆"
+    ]
+  },
+  {
+    "sku_id": "JD-10085",
+    "title": "颐海国际 小龙虾调味料320g",
+    "price": 28.0,
+    "original_price": 36.0,
+    "shop_name": "食品饮料专营店",
+    "good_rate": "96%",
+    "sales": "15.5万",
+    "category": "食品饮料",
+    "icon_emoji": "🍱",
+    "bg_color": "#ff8c4d",
+    "tags": [
+      "小龙虾",
+      "调料",
+      "麻辣",
+      "速食",
+      "居家"
+    ]
+  },
+  {
+    "sku_id": "JD-10086",
+    "title": "统一 汤达人 日式豚骨拉面5连包",
+    "price": 22.9,
+    "original_price": 30.0,
+    "shop_name": "食品饮料专营店",
+    "good_rate": "96%",
+    "sales": "9.4万",
+    "category": "食品饮料",
+    "icon_emoji": "🍱",
+    "bg_color": "#ff8c4d",
+    "tags": [
+      "方便面",
+      "统一",
+      "汤达人",
+      "拉面",
+      "豚骨"
+    ]
+  },
+  {
+    "sku_id": "JD-10087",
+    "title": "螺霸王 螺蛳粉330g×3袋",
+    "price": 39.9,
+    "original_price": 52.0,
+    "shop_name": "食品饮料专营店",
+    "good_rate": "98%",
+    "sales": "12.1万",
+    "category": "食品饮料",
+    "icon_emoji": "🍱",
+    "bg_color": "#ff8c4d",
+    "tags": [
+      "螺蛳粉",
+      "螺霸王",
+      "速食",
+      "广西",
+      "酸辣"
+    ]
+  },
+  {
+    "sku_id": "JD-10088",
+    "title": "自热火锅 海底捞自煮火锅套餐",
+    "price": 29.9,
+    "original_price": 39.0,
+    "shop_name": "食品饮料专营店",
+    "good_rate": "97%",
+    "sales": "9.8万",
+    "category": "食品饮料",
+    "icon_emoji": "🍱",
+    "bg_color": "#ff8c4d",
+    "tags": [
+      "自热火锅",
+      "速食",
+      "海底捞",
+      "方便",
+      "懒人"
+    ]
+  },
+  {
+    "sku_id": "JD-10089",
+    "title": "老干妈 风味豆豉油辣椒280g",
+    "price": 12.9,
+    "original_price": 17.0,
+    "shop_name": "食品饮料专营店",
+    "good_rate": "99%",
+    "sales": "4.6万",
+    "category": "食品饮料",
+    "icon_emoji": "🍱",
+    "bg_color": "#ff8c4d",
+    "tags": [
+      "老干妈",
+      "辣椒酱",
+      "调味",
+      "下饭",
+      "经典"
+    ]
+  },
+  {
+    "sku_id": "JD-10090",
+    "title": "海天 金标生抽酱油1.9L",
+    "price": 18.9,
+    "original_price": 25.0,
+    "shop_name": "食品饮料专营店",
+    "good_rate": "99%",
+    "sales": "14.6万",
+    "category": "食品饮料",
+    "icon_emoji": "🍱",
+    "bg_color": "#ff8c4d",
+    "tags": [
+      "酱油",
+      "海天",
+      "调味",
+      "生抽",
+      "烹饪"
+    ]
+  },
+  {
+    "sku_id": "JD-10091",
+    "title": "王守义 十三香调料45g×5",
+    "price": 15.0,
+    "original_price": 20.0,
+    "shop_name": "食品饮料专营店",
+    "good_rate": "97%",
+    "sales": "2.0万",
+    "category": "食品饮料",
+    "icon_emoji": "🍱",
+    "bg_color": "#ff8c4d",
+    "tags": [
+      "十三香",
+      "王守义",
+      "调料",
+      "炖肉",
+      "香料"
+    ]
+  },
+  {
+    "sku_id": "JD-10092",
+    "title": "安耐晒 小金瓶防晒霜60ml",
+    "price": 128.0,
+    "original_price": 166.0,
+    "shop_name": "美妆护肤专营店",
+    "good_rate": "99%",
+    "sales": "6.6万",
+    "category": "美妆护肤",
+    "icon_emoji": "💄",
+    "bg_color": "#ff6b9d",
+    "tags": [
+      "防晒",
+      "安耐晒",
+      "夏日",
+      "隔离",
+      "防晒霜"
+    ]
+  },
+  {
+    "sku_id": "JD-10093",
+    "title": "香蕉船 防晒喷雾SPF50+",
+    "price": 89.0,
+    "original_price": 116.0,
+    "shop_name": "美妆护肤专营店",
+    "good_rate": "99%",
+    "sales": "8.6万",
+    "category": "美妆护肤",
+    "icon_emoji": "💄",
+    "bg_color": "#ff6b9d",
+    "tags": [
+      "防晒",
+      "喷雾",
+      "夏日",
+      "户外",
+      "防水"
+    ]
+  },
+  {
+    "sku_id": "JD-10094",
+    "title": "六神 花露水驱蚊喷雾180ml",
+    "price": 19.9,
+    "original_price": 26.0,
+    "shop_name": "美妆护肤专营店",
+    "good_rate": "96%",
+    "sales": "12.2万",
+    "category": "美妆护肤",
+    "icon_emoji": "💄",
+    "bg_color": "#ff6b9d",
+    "tags": [
+      "驱蚊",
+      "花露水",
+      "六神",
+      "夏日",
+      "户外"
+    ]
+  },
+  {
+    "sku_id": "JD-10095",
+    "title": "润本 电热蚊香液无香3瓶+1器",
+    "price": 49.0,
+    "original_price": 64.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "96%",
+    "sales": "1.4万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "驱蚊",
+      "蚊香液",
+      "润本",
+      "夏日",
+      "无香"
+    ]
+  },
+  {
+    "sku_id": "JD-10096",
+    "title": "超威 杀虫气雾剂600ml",
+    "price": 19.9,
+    "original_price": 26.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "98%",
+    "sales": "14.5万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "杀虫剂",
+      "超威",
+      "除虫",
+      "夏日",
+      "居家"
+    ]
+  },
+  {
+    "sku_id": "JD-10097",
+    "title": "mikibobo 时尚太阳镜偏光驾驶",
+    "price": 199.0,
+    "original_price": 259.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "96%",
+    "sales": "4.7万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "太阳镜",
+      "偏光",
+      "驾驶",
+      "夏日",
+      "时尚"
+    ]
+  },
+  {
+    "sku_id": "JD-10098",
+    "title": "蕉下 折叠胶囊伞防晒伞",
+    "price": 89.0,
+    "original_price": 116.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "97%",
+    "sales": "9.8万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "遮阳伞",
+      "防晒",
+      "蕉下",
+      "夏日",
+      "折叠"
+    ]
+  },
+  {
+    "sku_id": "JD-10099",
+    "title": "阿迪达斯 透气运动短袖T恤",
+    "price": 199.0,
+    "original_price": 259.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "97%",
+    "sales": "7.8万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "T恤",
+      "阿迪达斯",
+      "运动",
+      "透气",
+      "夏日"
+    ]
+  },
+  {
+    "sku_id": "JD-10100",
+    "title": "斯凯奇 D'Lites 休闲运动鞋",
+    "price": 499.0,
+    "original_price": 649.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "98%",
+    "sales": "8.5万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "运动鞋",
+      "斯凯奇",
+      "休闲",
+      "舒适",
+      "Skechers"
+    ]
+  },
+  {
+    "sku_id": "JD-10101",
+    "title": "施华洛世奇 经典天鹅项链",
+    "price": 899.0,
+    "original_price": 1169.0,
+    "shop_name": "时尚配饰专营店",
+    "good_rate": "96%",
+    "sales": "8.1万",
+    "category": "时尚配饰",
+    "icon_emoji": "👜",
+    "bg_color": "#6b7280",
+    "tags": [
+      "项链",
+      "施华洛世奇",
+      "水晶",
+      "饰品",
+      "送礼"
+    ]
+  },
+  {
+    "sku_id": "JD-10102",
+    "title": "卡地亚 LOVE系列手镯",
+    "price": 7500.0,
+    "original_price": 9750.0,
+    "shop_name": "时尚配饰专营店",
+    "good_rate": "96%",
+    "sales": "1.2万",
+    "category": "时尚配饰",
+    "icon_emoji": "👜",
+    "bg_color": "#6b7280",
+    "tags": [
+      "手镯",
+      "卡地亚",
+      "Cartier",
+      "奢侈品",
+      "情侣"
+    ]
+  },
+  {
+    "sku_id": "JD-10103",
+    "title": "天梭 力洛克系列机械腕表",
+    "price": 3800.0,
+    "original_price": 4940.0,
+    "shop_name": "时尚配饰专营店",
+    "good_rate": "96%",
+    "sales": "17.5万",
+    "category": "时尚配饰",
+    "icon_emoji": "👜",
+    "bg_color": "#6b7280",
+    "tags": [
+      "手表",
+      "天梭",
+      "Tissot",
+      "机械表",
+      "商务"
+    ]
+  },
+  {
+    "sku_id": "JD-10104",
+    "title": "周大福 纯金转运珠手链",
+    "price": 1580.0,
+    "original_price": 2054.0,
+    "shop_name": "时尚配饰专营店",
+    "good_rate": "97%",
+    "sales": "3.2万",
+    "category": "时尚配饰",
+    "icon_emoji": "👜",
+    "bg_color": "#6b7280",
+    "tags": [
+      "手链",
+      "周大福",
+      "黄金",
+      "转运珠",
+      "珠宝"
+    ]
+  },
+  {
+    "sku_id": "JD-10105",
+    "title": "潘多拉 串饰手链入门套装",
+    "price": 698.0,
+    "original_price": 907.0,
+    "shop_name": "时尚配饰专营店",
+    "good_rate": "99%",
+    "sales": "8.8万",
+    "category": "时尚配饰",
+    "icon_emoji": "👜",
+    "bg_color": "#6b7280",
+    "tags": [
+      "手链",
+      "潘多拉",
+      "Pandora",
+      "串饰",
+      "定制"
+    ]
+  },
+  {
+    "sku_id": "JD-10106",
+    "title": "DR 钻戒 D系列求婚钻戒",
+    "price": 15800.0,
+    "original_price": 20540.0,
+    "shop_name": "时尚配饰专营店",
+    "good_rate": "99%",
+    "sales": "16.3万",
+    "category": "时尚配饰",
+    "icon_emoji": "👜",
+    "bg_color": "#6b7280",
+    "tags": [
+      "钻戒",
+      "DR",
+      "求婚",
+      "钻石",
+      "一生唯一"
+    ]
+  },
+  {
+    "sku_id": "JD-10107",
+    "title": "华为 Mate 60 Pro 5G手机",
+    "price": 6999.0,
+    "original_price": 9099.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "97%",
+    "sales": "7.0万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "手机",
+      "华为",
+      "5G",
+      "旗舰",
+      "卫星通信"
+    ]
+  },
+  {
+    "sku_id": "JD-10108",
+    "title": "小米14 Ultra 徕卡影像旗舰",
+    "price": 6499.0,
+    "original_price": 8449.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "99%",
+    "sales": "5.0万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "手机",
+      "小米",
+      "徕卡",
+      "影像",
+      "旗舰"
+    ]
+  },
+  {
+    "sku_id": "JD-10109",
+    "title": "戴尔 XPS 15 笔记本电脑",
+    "price": 12999.0,
+    "original_price": 16899.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "99%",
+    "sales": "5.3万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "笔记本",
+      "戴尔",
+      "Dell",
+      "XPS",
+      "办公"
+    ]
+  },
+  {
+    "sku_id": "JD-10110",
+    "title": "联想 ThinkPad X1 Carbon 商务本",
+    "price": 11999.0,
+    "original_price": 15599.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "99%",
+    "sales": "3.0万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "笔记本",
+      "ThinkPad",
+      "联想",
+      "商务",
+      "轻薄"
+    ]
+  },
+  {
+    "sku_id": "JD-10111",
+    "title": "佳能 EOS R6 Mark II 微单相机",
+    "price": 15999.0,
+    "original_price": 20799.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "98%",
+    "sales": "4.2万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "相机",
+      "佳能",
+      "Canon",
+      "微单",
+      "摄影"
+    ]
+  },
+  {
+    "sku_id": "JD-10112",
+    "title": "大疆 DJI Mini 4 Pro 航拍无人机",
+    "price": 4788.0,
+    "original_price": 6224.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "96%",
+    "sales": "10.6万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "无人机",
+      "大疆",
+      "DJI",
+      "航拍",
+      "4K"
+    ]
+  },
+  {
+    "sku_id": "JD-10113",
+    "title": "苹果 iPad Air M2 平板电脑",
+    "price": 4799.0,
+    "original_price": 6239.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "96%",
+    "sales": "13.5万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "平板",
+      "iPad",
+      "苹果",
+      "M2",
+      "办公"
+    ]
+  },
+  {
+    "sku_id": "JD-10114",
+    "title": "三星 27寸 4K 显示器",
+    "price": 2499.0,
+    "original_price": 3249.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "96%",
+    "sales": "1.2万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "显示器",
+      "三星",
+      "4K",
+      "办公",
+      "游戏"
+    ]
+  },
+  {
+    "sku_id": "JD-10115",
+    "title": "雷蛇 黑寡妇机械键盘RGB",
+    "price": 899.0,
+    "original_price": 1169.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "99%",
+    "sales": "9.2万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "机械键盘",
+      "雷蛇",
+      "Razer",
+      "游戏",
+      "RGB"
+    ]
+  },
+  {
+    "sku_id": "JD-10116",
+    "title": "罗技 G Pro 无线游戏鼠标",
+    "price": 699.0,
+    "original_price": 909.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "97%",
+    "sales": "1.3万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "游戏鼠标",
+      "罗技",
+      "无线",
+      "电竞",
+      "轻量化"
+    ]
+  },
+  {
+    "sku_id": "JD-10117",
+    "title": "网易严选 全棉四件套床品",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "96%",
+    "sales": "15.4万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "四件套",
+      "网易严选",
+      "床品",
+      "纯棉",
+      "舒适"
+    ]
+  },
+  {
+    "sku_id": "JD-10118",
+    "title": "记忆棉枕头 护颈枕慢回弹",
+    "price": 129.0,
+    "original_price": 168.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "96%",
+    "sales": "10.8万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "枕头",
+      "记忆棉",
+      "护颈",
+      "睡眠",
+      "健康"
+    ]
+  },
+  {
+    "sku_id": "JD-10119",
+    "title": "乳胶床垫 1.8m双人薄款5cm",
+    "price": 699.0,
+    "original_price": 909.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "97%",
+    "sales": "7.4万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "床垫",
+      "乳胶",
+      "睡眠",
+      "健康",
+      "舒适"
+    ]
+  },
+  {
+    "sku_id": "JD-10120",
+    "title": "雅兰 弹簧床垫 1.5m护脊款",
+    "price": 1599.0,
+    "original_price": 2079.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "97%",
+    "sales": "10.5万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "床垫",
+      "雅兰",
+      "弹簧",
+      "护脊",
+      "睡眠"
+    ]
+  },
+  {
+    "sku_id": "JD-10121",
+    "title": "慕思 沙发客厅真皮三人位",
+    "price": 5999.0,
+    "original_price": 7799.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "96%",
+    "sales": "11.3万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "沙发",
+      "慕思",
+      "真皮",
+      "客厅",
+      "家具"
+    ]
+  },
+  {
+    "sku_id": "JD-10122",
+    "title": "索菲亚 衣柜定制到顶收纳",
+    "price": 3999.0,
+    "original_price": 5199.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "99%",
+    "sales": "11.9万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "衣柜",
+      "索菲亚",
+      "定制",
+      "收纳",
+      "卧室"
+    ]
+  },
+  {
+    "sku_id": "JD-10123",
+    "title": "全友家居 餐桌实木长方形",
+    "price": 1299.0,
+    "original_price": 1689.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "98%",
+    "sales": "16.8万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "餐桌",
+      "全友",
+      "实木",
+      "餐厅",
+      "家具"
+    ]
+  },
+  {
+    "sku_id": "JD-10124",
+    "title": "顾家家居 人体工学办公椅",
+    "price": 899.0,
+    "original_price": 1169.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "97%",
+    "sales": "12.2万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "办公椅",
+      "顾家",
+      "人体工学",
+      "舒适",
+      "办公"
+    ]
+  },
+  {
+    "sku_id": "JD-10125",
+    "title": "雷美 台灯护眼学习灯",
+    "price": 199.0,
+    "original_price": 259.0,
+    "shop_name": "家居生活专营店",
+    "good_rate": "98%",
+    "sales": "4.5万",
+    "category": "家居生活",
+    "icon_emoji": "🛋️",
+    "bg_color": "#ffb84d",
+    "tags": [
+      "台灯",
+      "护眼",
+      "学习",
+      "LED",
+      "儿童"
+    ]
+  },
+  {
+    "sku_id": "JD-10126",
+    "title": "格力 1.5匹 变频空调",
+    "price": 3299.0,
+    "original_price": 4289.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "99%",
+    "sales": "2.6万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "空调",
+      "格力",
+      "变频",
+      "制冷",
+      "家电"
+    ]
+  },
+  {
+    "sku_id": "JD-10127",
+    "title": "海尔 200L 对开门冰箱",
+    "price": 2999.0,
+    "original_price": 3899.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "98%",
+    "sales": "8.4万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "冰箱",
+      "海尔",
+      "对开门",
+      "家电",
+      "节能"
+    ]
+  },
+  {
+    "sku_id": "JD-10128",
+    "title": "西门子 10kg 洗烘一体机",
+    "price": 4999.0,
+    "original_price": 6499.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "96%",
+    "sales": "0.5万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "洗衣机",
+      "西门子",
+      "洗烘一体",
+      "家电",
+      "智能"
+    ]
+  },
+  {
+    "sku_id": "JD-10129",
+    "title": "方太 烟灶套装侧吸烟机",
+    "price": 3999.0,
+    "original_price": 5199.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "96%",
+    "sales": "1.6万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "油烟机",
+      "方太",
+      "厨房",
+      "烟灶套装",
+      "家电"
+    ]
+  },
+  {
+    "sku_id": "JD-10130",
+    "title": "美的 电压力锅5L智能预约",
+    "price": 399.0,
+    "original_price": 519.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "97%",
+    "sales": "9.3万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "电压力锅",
+      "美的",
+      "厨房",
+      "智能",
+      "家用"
+    ]
+  },
+  {
+    "sku_id": "JD-10131",
+    "title": "苏泊尔 炒锅不粘锅电磁炉通用",
+    "price": 199.0,
+    "original_price": 259.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "97%",
+    "sales": "16.8万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "炒锅",
+      "苏泊尔",
+      "不粘锅",
+      "厨房",
+      "烹饪"
+    ]
+  },
+  {
+    "sku_id": "JD-10132",
+    "title": "九阳 豆浆机家用全自动",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "96%",
+    "sales": "15.9万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "豆浆机",
+      "九阳",
+      "破壁机",
+      "厨房",
+      "健康"
+    ]
+  },
+  {
+    "sku_id": "JD-10133",
+    "title": "美的 微波炉家用平板式",
+    "price": 499.0,
+    "original_price": 649.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "98%",
+    "sales": "5.3万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "微波炉",
+      "美的",
+      "厨房",
+      "加热",
+      "家用"
+    ]
+  },
+  {
+    "sku_id": "JD-10134",
+    "title": "东净水器 厨下式RO反渗透",
+    "price": 1999.0,
+    "original_price": 2599.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "99%",
+    "sales": "15.1万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "净水器",
+      "厨房",
+      "饮水",
+      "健康",
+      "过滤"
+    ]
+  },
+  {
+    "sku_id": "JD-10135",
+    "title": "美的 电热水瓶家用4L",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "98%",
+    "sales": "11.1万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "热水瓶",
+      "美的",
+      "厨房",
+      "保温",
+      "家用"
+    ]
+  },
+  {
+    "sku_id": "JD-10136",
+    "title": "科沃斯 地宝T30 PRO扫地机器人",
+    "price": 3499.0,
+    "original_price": 4549.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "96%",
+    "sales": "12.1万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "扫地机器人",
+      "科沃斯",
+      "智能",
+      "清洁",
+      "家电"
+    ]
+  },
+  {
+    "sku_id": "JD-10137",
+    "title": "石头 自动洗拖布基站扫拖机器人",
+    "price": 3299.0,
+    "original_price": 4289.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "98%",
+    "sales": "16.8万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "扫地机器人",
+      "石头",
+      "自动洗拖布",
+      "智能",
+      "清洁"
+    ]
+  },
+  {
+    "sku_id": "JD-10138",
+    "title": "追觅 扫地机器人AI避障",
+    "price": 2999.0,
+    "original_price": 3899.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "96%",
+    "sales": "16.9万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "扫地机器人",
+      "追觅",
+      "AI避障",
+      "智能",
+      "清洁"
+    ]
+  },
+  {
+    "sku_id": "JD-10139",
+    "title": "荣事达 挂烫机家用手持",
+    "price": 129.0,
+    "original_price": 168.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "97%",
+    "sales": "5.0万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "挂烫机",
+      "荣事达",
+      "熨烫",
+      "衣物护理",
+      "家用"
+    ]
+  },
+  {
+    "sku_id": "JD-10140",
+    "title": "飞科 电动剃须刀男士刮胡刀",
+    "price": 199.0,
+    "original_price": 259.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "96%",
+    "sales": "13.4万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "剃须刀",
+      "飞科",
+      "男士",
+      "电动",
+      "护理"
+    ]
+  },
+  {
+    "sku_id": "JD-10141",
+    "title": "戴森 吹风机Supersonic HD15",
+    "price": 2990.0,
+    "original_price": 3887.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "97%",
+    "sales": "5.1万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "吹风机",
+      "戴森",
+      "负离子",
+      "护理",
+      "高端"
+    ]
+  },
+  {
+    "sku_id": "JD-10142",
+    "title": "飞利浦 美发造型器卷发棒",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "97%",
+    "sales": "13.0万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "卷发棒",
+      "飞利浦",
+      "造型",
+      "美发",
+      "护理"
+    ]
+  },
+  {
+    "sku_id": "JD-10143",
+    "title": "吉列 剃须刀手动5层刀片",
+    "price": 49.0,
+    "original_price": 64.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "97%",
+    "sales": "12.5万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "剃须刀",
+      "吉列",
+      "手动",
+      "男士",
+      "护理"
+    ]
+  },
+  {
+    "sku_id": "JD-10144",
+    "title": "欧乐B 电动牙刷成人款",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "98%",
+    "sales": "9.2万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "电动牙刷",
+      "欧乐B",
+      "口腔护理",
+      "旋转",
+      "清洁"
+    ]
+  },
+  {
+    "sku_id": "JD-10145",
+    "title": "超人 电动剃须刀男士便携",
+    "price": 89.0,
+    "original_price": 116.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "98%",
+    "sales": "16.3万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "剃须刀",
+      "超人",
+      "男士",
+      "电动",
+      "便携"
+    ]
+  },
+  {
+    "sku_id": "JD-10146",
+    "title": "昂跑 On Cloud 跑步鞋",
+    "price": 1099.0,
+    "original_price": 1429.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "96%",
+    "sales": "1.9万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "跑步鞋",
+      "昂跑",
+      "On",
+      "运动",
+      "缓震"
+    ]
+  },
+  {
+    "sku_id": "JD-10147",
+    "title": "HOKA ONE ONE 跑步鞋缓震",
+    "price": 999.0,
+    "original_price": 1299.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "99%",
+    "sales": "15.0万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "跑步鞋",
+      "HOKA",
+      "运动",
+      "缓震",
+      "户外"
+    ]
+  },
+  {
+    "sku_id": "JD-10148",
+    "title": "始祖鸟 Arc'teryx 户外冲锋衣",
+    "price": 4200.0,
+    "original_price": 5460.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "96%",
+    "sales": "0.4万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "冲锋衣",
+      "始祖鸟",
+      "户外",
+      "防水",
+      "透气"
+    ]
+  },
+  {
+    "sku_id": "JD-10149",
+    "title": "北面 The North Face 户外羽绒服",
+    "price": 1899.0,
+    "original_price": 2469.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "97%",
+    "sales": "11.6万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "羽绒服",
+      "北面",
+      "TNF",
+      "户外",
+      "保暖"
+    ]
+  },
+  {
+    "sku_id": "JD-10150",
+    "title": "Patagonia 户外抓绒衣",
+    "price": 799.0,
+    "original_price": 1039.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "98%",
+    "sales": "3.2万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "抓绒衣",
+      "Patagonia",
+      "户外",
+      "环保",
+      "保暖"
+    ]
+  },
+  {
+    "sku_id": "JD-10151",
+    "title": "优衣库 HeatTech 保暖内衣套装",
+    "price": 149.0,
+    "original_price": 194.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "99%",
+    "sales": "10.1万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "保暖内衣",
+      "优衣库",
+      "HeatTech",
+      "冬季",
+      "保暖"
+    ]
+  },
+  {
+    "sku_id": "JD-10152",
+    "title": "无印良品 MUJI 棉麻休闲裤",
+    "price": 199.0,
+    "original_price": 259.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "99%",
+    "sales": "10.2万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "休闲裤",
+      "MUJI",
+      "无印良品",
+      "棉麻",
+      "简约"
+    ]
+  },
+  {
+    "sku_id": "JD-10153",
+    "title": "Levi's 501 牛仔裤经典直筒",
+    "price": 599.0,
+    "original_price": 779.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "96%",
+    "sales": "1.6万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "牛仔裤",
+      "Levi's",
+      "经典",
+      "牛仔",
+      "直筒"
+    ]
+  },
+  {
+    "sku_id": "JD-10154",
+    "title": "Dickies 工装裤男款宽松",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "97%",
+    "sales": "10.0万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "工装裤",
+      "Dickies",
+      "工装",
+      "休闲",
+      "耐磨"
+    ]
+  },
+  {
+    "sku_id": "JD-10155",
+    "title": "Carhartt 工装外套工装风",
+    "price": 699.0,
+    "original_price": 909.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "98%",
+    "sales": "10.6万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "工装外套",
+      "Carhartt",
+      "工装",
+      "保暖",
+      "复古"
+    ]
+  },
+  {
+    "sku_id": "JD-10156",
+    "title": "VANS Old Skool 经典帆布鞋",
+    "price": 465.0,
+    "original_price": 604.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "97%",
+    "sales": "7.9万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "帆布鞋",
+      "VANS",
+      "经典",
+      "休闲",
+      "滑板"
+    ]
+  },
+  {
+    "sku_id": "JD-10157",
+    "title": "Converse Chuck 70 帆布鞋",
+    "price": 499.0,
+    "original_price": 649.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "96%",
+    "sales": "5.8万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "帆布鞋",
+      "Converse",
+      "匡威",
+      "经典",
+      "复古"
+    ]
+  },
+  {
+    "sku_id": "JD-10158",
+    "title": "Timberland 大黄靴10061",
+    "price": 1299.0,
+    "original_price": 1689.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "96%",
+    "sales": "16.2万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "大黄靴",
+      "Timberland",
+      "踢不烂",
+      "工装",
+      "经典"
+    ]
+  },
+  {
+    "sku_id": "JD-10159",
+    "title": "Dr. Martens 1460 八孔马丁靴",
+    "price": 1399.0,
+    "original_price": 1819.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "97%",
+    "sales": "12.4万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "马丁靴",
+      "Dr. Martens",
+      "1460",
+      "英伦",
+      "经典"
+    ]
+  },
+  {
+    "sku_id": "JD-10160",
+    "title": "New Balance 574 复古跑鞋",
+    "price": 599.0,
+    "original_price": 779.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "96%",
+    "sales": "6.6万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "跑鞋",
+      "NB",
+      "New Balance",
+      "复古",
+      "休闲"
+    ]
+  },
+  {
+    "sku_id": "JD-10161",
+    "title": "Asics Gel-Kayano 跑步鞋",
+    "price": 890.0,
+    "original_price": 1157.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "99%",
+    "sales": "17.5万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "跑步鞋",
+      "Asics",
+      "亚瑟士",
+      "运动",
+      "缓震"
+    ]
+  },
+  {
+    "sku_id": "JD-10162",
+    "title": "Pegasus 40 跑步鞋Nike",
+    "price": 799.0,
+    "original_price": 1039.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "97%",
+    "sales": "16.7万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "跑步鞋",
+      "Nike",
+      "耐克",
+      "Pegasus",
+      "运动"
+    ]
+  },
+  {
+    "sku_id": "JD-10163",
+    "title": "Nike Air Force 1 空军一号",
+    "price": 749.0,
+    "original_price": 974.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "97%",
+    "sales": "15.6万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "休闲鞋",
+      "Nike",
+      "空军一号",
+      "AF1",
+      "经典"
+    ]
+  },
+  {
+    "sku_id": "JD-10164",
+    "title": "Adidas Ultra Boost 跑鞋",
+    "price": 1099.0,
+    "original_price": 1429.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "97%",
+    "sales": "15.9万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "跑鞋",
+      "Adidas",
+      "Ultra Boost",
+      "缓震",
+      "运动"
+    ]
+  },
+  {
+    "sku_id": "JD-10165",
+    "title": "Puma RS-X 复古休闲鞋",
+    "price": 699.0,
+    "original_price": 909.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "96%",
+    "sales": "3.5万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "休闲鞋",
+      "Puma",
+      "复古",
+      "潮流",
+      "运动"
+    ]
+  },
+  {
+    "sku_id": "JD-10166",
+    "title": "Reebok Classic 复古运动鞋",
+    "price": 499.0,
+    "original_price": 649.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "98%",
+    "sales": "14.1万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "运动鞋",
+      "Reebok",
+      "锐步",
+      "复古",
+      "经典"
+    ]
+  },
+  {
+    "sku_id": "JD-10167",
+    "title": "Salomon XT-6 户外徒步鞋",
+    "price": 1299.0,
+    "original_price": 1689.0,
+    "shop_name": "服饰鞋帽专营店",
+    "good_rate": "99%",
+    "sales": "14.5万",
+    "category": "服饰鞋帽",
+    "icon_emoji": "👕",
+    "bg_color": "#a8a8b8",
+    "tags": [
+      "徒步鞋",
+      "Salomon",
+      "户外",
+      "越野",
+      "潮流"
+    ]
+  },
+  {
+    "sku_id": "JD-10168",
+    "title": "La Sportiva 攀岩鞋",
+    "price": 899.0,
+    "original_price": 1169.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "5.0万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "攀岩鞋",
+      "La Sportiva",
+      "户外",
+      "攀岩",
+      "专业"
+    ]
+  },
+  {
+    "sku_id": "JD-10169",
+    "title": "Black Diamond 登山杖",
+    "price": 399.0,
+    "original_price": 519.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "7.1万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "登山杖",
+      "Black Diamond",
+      "户外",
+      "徒步",
+      "登山"
+    ]
+  },
+  {
+    "sku_id": "JD-10170",
+    "title": "Osprey 户外登山包30L",
+    "price": 899.0,
+    "original_price": 1169.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "15.5万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "登山包",
+      "Osprey",
+      "户外",
+      "背包",
+      "徒步"
+    ]
+  },
+  {
+    "sku_id": "JD-10171",
+    "title": "Garmin Fenix 7 运动手表",
+    "price": 4980.0,
+    "original_price": 6474.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "97%",
+    "sales": "3.8万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "运动手表",
+      "Garmin",
+      "户外",
+      "GPS",
+      "运动"
+    ]
+  },
+  {
+    "sku_id": "JD-10172",
+    "title": "Suunto 颂拓 运动手表9 Peak",
+    "price": 3999.0,
+    "original_price": 5199.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "99%",
+    "sales": "6.5万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "运动手表",
+      "Suunto",
+      "颂拓",
+      "户外",
+      "精致"
+    ]
+  },
+  {
+    "sku_id": "JD-10173",
+    "title": "COROS 高驰 运动手表Apex 2",
+    "price": 2999.0,
+    "original_price": 3899.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "97%",
+    "sales": "4.2万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "运动手表",
+      "COROS",
+      "高驰",
+      "户外",
+      "铁三"
+    ]
+  },
+  {
+    "sku_id": "JD-10174",
+    "title": "北面 TNF 户外背包25L",
+    "price": 599.0,
+    "original_price": 779.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "7.4万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "背包",
+      "TNF",
+      "北面",
+      "户外",
+      "通勤"
+    ]
+  },
+  {
+    "sku_id": "JD-10175",
+    "title": "Gregory 户外登山包55L",
+    "price": 1599.0,
+    "original_price": 2079.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "15.6万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "登山包",
+      "Gregory",
+      "户外",
+      "徒步",
+      "大容量"
+    ]
+  },
+  {
+    "sku_id": "JD-10176",
+    "title": "Mountain Hardwear 帐篷双人",
+    "price": 1899.0,
+    "original_price": 2469.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "6.5万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "帐篷",
+      "Mountain Hardwear",
+      "户外",
+      "露营",
+      "双人"
+    ]
+  },
+  {
+    "sku_id": "JD-10177",
+    "title": "Snow Peak 露营装备套装",
+    "price": 2999.0,
+    "original_price": 3899.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "12.3万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "露营",
+      "Snow Peak",
+      "户外",
+      "精致",
+      "日系"
+    ]
+  },
+  {
+    "sku_id": "JD-10178",
+    "title": "Coleman 户外露营灯",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "16.9万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "露营灯",
+      "Coleman",
+      "户外",
+      "露营",
+      "照明"
+    ]
+  },
+  {
+    "sku_id": "JD-10179",
+    "title": "Jetboil 户外炉具",
+    "price": 699.0,
+    "original_price": 909.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "15.8万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "炉具",
+      "Jetboil",
+      "户外",
+      "露营",
+      "烧水"
+    ]
+  },
+  {
+    "sku_id": "JD-10180",
+    "title": "MSR 超轻露营炉具",
+    "price": 899.0,
+    "original_price": 1169.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "3.5万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "炉具",
+      "MSR",
+      "户外",
+      "超轻",
+      "露营"
+    ]
+  },
+  {
+    "sku_id": "JD-10181",
+    "title": "Therm-a-Rest 户外睡垫",
+    "price": 499.0,
+    "original_price": 649.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "1.0万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "睡垫",
+      "Therm-a-Rest",
+      "户外",
+      "露营",
+      "充气"
+    ]
+  },
+  {
+    "sku_id": "JD-10182",
+    "title": "Big Agnes 超轻帐篷",
+    "price": 2499.0,
+    "original_price": 3249.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "6.4万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "帐篷",
+      "Big Agnes",
+      "户外",
+      "超轻",
+      "单人"
+    ]
+  },
+  {
+    "sku_id": "JD-10183",
+    "title": "MSR 汽油炉户外炊具",
+    "price": 1299.0,
+    "original_price": 1689.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "8.0万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "汽油炉",
+      "MSR",
+      "户外",
+      "炊具",
+      "专业"
+    ]
+  },
+  {
+    "sku_id": "JD-10184",
+    "title": "Katadyn 户外净水器",
+    "price": 899.0,
+    "original_price": 1169.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "7.1万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "净水器",
+      "Katadyn",
+      "户外",
+      "安全",
+      "过滤"
+    ]
+  },
+  {
+    "sku_id": "JD-10185",
+    "title": "Leki 登山杖碳纤维超轻",
+    "price": 799.0,
+    "original_price": 1039.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "4.8万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "登山杖",
+      "Leki",
+      "户外",
+      "碳纤维",
+      "超轻"
+    ]
+  },
+  {
+    "sku_id": "JD-10186",
+    "title": "Petzl 头灯户外照明",
+    "price": 499.0,
+    "original_price": 649.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "0.3万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "头灯",
+      "Petzl",
+      "户外",
+      "露营",
+      "照明"
+    ]
+  },
+  {
+    "sku_id": "JD-10187",
+    "title": "Black Diamond 头灯Recharge",
+    "price": 599.0,
+    "original_price": 779.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "6.7万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "头灯",
+      "Black Diamond",
+      "户外",
+      "充电",
+      "露营"
+    ]
+  },
+  {
+    "sku_id": "JD-10188",
+    "title": "CAMELBAK 户外水袋3L",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "17.1万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "水袋",
+      "CAMELBAK",
+      "户外",
+      "骑行",
+      "徒步"
+    ]
+  },
+  {
+    "sku_id": "JD-10189",
+    "title": "HydraPak 户外水袋超轻",
+    "price": 199.0,
+    "original_price": 259.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "11.3万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "水袋",
+      "HydraPak",
+      "户外",
+      "超轻",
+      "骑行"
+    ]
+  },
+  {
+    "sku_id": "JD-10190",
+    "title": "Sea to Summit 户外睡袋",
+    "price": 899.0,
+    "original_price": 1169.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "13.0万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "睡袋",
+      "Sea to Summit",
+      "户外",
+      "露营",
+      "保暖"
+    ]
+  },
+  {
+    "sku_id": "JD-10191",
+    "title": "Marmot 土拨鼠 户外睡袋",
+    "price": 1299.0,
+    "original_price": 1689.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "9.3万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "睡袋",
+      "Marmot",
+      "户外",
+      "保暖",
+      "羽绒"
+    ]
+  },
+  {
+    "sku_id": "JD-10192",
+    "title": "Montbell 日本户外睡袋",
+    "price": 1599.0,
+    "original_price": 2079.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "6.1万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "睡袋",
+      "Montbell",
+      "户外",
+      "超轻",
+      "日系"
+    ]
+  },
+  {
+    "sku_id": "JD-10193",
+    "title": "Yeti 户外保温箱",
+    "price": 1999.0,
+    "original_price": 2599.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "10.1万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "保温箱",
+      "Yeti",
+      "户外",
+      "露营",
+      "野餐"
+    ]
+  },
+  {
+    "sku_id": "JD-10194",
+    "title": "Stanley 保温杯1L户外",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "7.7万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "保温杯",
+      "Stanley",
+      "户外",
+      "大容量",
+      "耐用"
+    ]
+  },
+  {
+    "sku_id": "JD-10195",
+    "title": "Hydro Flask 保温杯32oz",
+    "price": 199.0,
+    "original_price": 259.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "12.3万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "保温杯",
+      "Hydro Flask",
+      "户外",
+      "保温",
+      "环保"
+    ]
+  },
+  {
+    "sku_id": "JD-10196",
+    "title": "Klean Kanteen 不锈钢保温杯",
+    "price": 179.0,
+    "original_price": 233.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "11.2万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "保温杯",
+      "Klean Kanteen",
+      "户外",
+      "环保",
+      "不锈钢"
+    ]
+  },
+  {
+    "sku_id": "JD-10197",
+    "title": "YETI Rambler 保温杯30oz",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "7.5万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "保温杯",
+      "YETI",
+      "户外",
+      "保冷",
+      "耐用"
+    ]
+  },
+  {
+    "sku_id": "JD-10198",
+    "title": "优酷花园 瑜伽服运动套装",
+    "price": 199.0,
+    "original_price": 259.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "5.7万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "瑜伽服",
+      "运动套装",
+      "优酷花园",
+      "健身",
+      "女"
+    ]
+  },
+  {
+    "sku_id": "JD-10199",
+    "title": "Maia Active 瑜伽裤高腰",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "7.9万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "瑜伽裤",
+      "Maia Active",
+      "高腰",
+      "健身",
+      "女"
+    ]
+  },
+  {
+    "sku_id": "JD-10200",
+    "title": "VFU 健身手套防滑护腕",
+    "price": 59.0,
+    "original_price": 77.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "8.5万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "健身手套",
+      "VFU",
+      "防滑",
+      "护腕",
+      "力量训练"
+    ]
+  },
+  {
+    "sku_id": "JD-10201",
+    "title": "Keep 健身阻力带套装",
+    "price": 79.0,
+    "original_price": 103.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "12.3万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "阻力带",
+      "Keep",
+      "健身",
+      "居家",
+      "塑形"
+    ]
+  },
+  {
+    "sku_id": "JD-10202",
+    "title": "动境 壶铃可调节重量",
+    "price": 399.0,
+    "original_price": 519.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "14.3万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "壶铃",
+      "动境",
+      "力量",
+      "健身",
+      "可调节"
+    ]
+  },
+  {
+    "sku_id": "JD-10203",
+    "title": "迪卡侬 单车山地车户外",
+    "price": 1999.0,
+    "original_price": 2599.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "12.0万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "自行车",
+      "迪卡侬",
+      "山地车",
+      "户外",
+      "骑行"
+    ]
+  },
+  {
+    "sku_id": "JD-10204",
+    "title": "GRC 折叠自行车通勤便携",
+    "price": 1299.0,
+    "original_price": 1689.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "9.4万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "折叠车",
+      "GRC",
+      "通勤",
+      "便携",
+      "城市"
+    ]
+  },
+  {
+    "sku_id": "JD-10205",
+    "title": "Specialized 公路自行车",
+    "price": 8999.0,
+    "original_price": 11699.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "2.0万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "公路车",
+      "Specialized",
+      "闪电",
+      "竞速",
+      "专业"
+    ]
+  },
+  {
+    "sku_id": "JD-10206",
+    "title": "Trek 山地自行车户外",
+    "price": 7999.0,
+    "original_price": 10399.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "12.2万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "山地车",
+      "Trek",
+      "户外",
+      "专业",
+      "骑行"
+    ]
+  },
+  {
+    "sku_id": "JD-10207",
+    "title": "Giant 捷安特 公路自行车",
+    "price": 3999.0,
+    "original_price": 5199.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "14.6万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "公路车",
+      "Giant",
+      "捷安特",
+      "入门",
+      "骑行"
+    ]
+  },
+  {
+    "sku_id": "JD-10208",
+    "title": "POC 公路骑行头盔空气动力",
+    "price": 999.0,
+    "original_price": 1299.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "0.7万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "头盔",
+      "POC",
+      "骑行",
+      "安全",
+      "公路"
+    ]
+  },
+  {
+    "sku_id": "JD-10209",
+    "title": "Oakley 骑行眼镜偏光",
+    "price": 899.0,
+    "original_price": 1169.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "17.7万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "骑行眼镜",
+      "Oakley",
+      "偏光",
+      "骑行",
+      "防护"
+    ]
+  },
+  {
+    "sku_id": "JD-10210",
+    "title": "GRC 骑行手套透气防滑",
+    "price": 89.0,
+    "original_price": 116.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "8.4万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "骑行手套",
+      "GRC",
+      "骑行",
+      "防滑",
+      "透气"
+    ]
+  },
+  {
+    "sku_id": "JD-10211",
+    "title": "Assos 骑行服长袖透气",
+    "price": 1299.0,
+    "original_price": 1689.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "13.0万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "骑行服",
+      "Assos",
+      "专业",
+      "透气",
+      "高端"
+    ]
+  },
+  {
+    "sku_id": "JD-10212",
+    "title": "Rapha 骑行服经典款",
+    "price": 1599.0,
+    "original_price": 2079.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "9.1万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "骑行服",
+      "Rapha",
+      "经典",
+      "专业",
+      "高端"
+    ]
+  },
+  {
+    "sku_id": "JD-10213",
+    "title": "GRC 骑行裤加垫骑行",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "2.9万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "骑行裤",
+      "GRC",
+      "骑行",
+      "加垫",
+      "舒适"
+    ]
+  },
+  {
+    "sku_id": "JD-10214",
+    "title": "CatEye 自行车尾灯",
+    "price": 99.0,
+    "original_price": 129.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "16.1万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "尾灯",
+      "CatEye",
+      "自行车",
+      "安全",
+      "骑行"
+    ]
+  },
+  {
+    "sku_id": "JD-10215",
+    "title": "Topeak 自行车打气筒便携",
+    "price": 79.0,
+    "original_price": 103.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "14.1万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "打气筒",
+      "Topeak",
+      "自行车",
+      "便携",
+      "骑行"
+    ]
+  },
+  {
+    "sku_id": "JD-10216",
+    "title": "Park Tool 自行车维修工具组",
+    "price": 499.0,
+    "original_price": 649.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "3.4万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "维修工具",
+      "Park Tool",
+      "自行车",
+      "专业",
+      "维修"
+    ]
+  },
+  {
+    "sku_id": "JD-10217",
+    "title": "Wahoo Fitness 骑行台智能",
+    "price": 4999.0,
+    "original_price": 6499.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "1.2万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "骑行台",
+      "Wahoo",
+      "智能",
+      "室内",
+      "训练"
+    ]
+  },
+  {
+    "sku_id": "JD-10218",
+    "title": "Tacx 骑行台智能trainer",
+    "price": 6999.0,
+    "original_price": 9099.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "16.5万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "骑行台",
+      "Tacx",
+      "智能",
+      "室内",
+      "训练"
+    ]
+  },
+  {
+    "sku_id": "JD-10219",
+    "title": "Garmin 码表Edge 540",
+    "price": 2480.0,
+    "original_price": 3224.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "96%",
+    "sales": "8.4万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "码表",
+      "Garmin",
+      "骑行",
+      "GPS",
+      "导航"
+    ]
+  },
+  {
+    "sku_id": "JD-10220",
+    "title": "iBike 室内健身自行车",
+    "price": 1299.0,
+    "original_price": 1689.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "12.1万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "健身车",
+      "iBike",
+      "室内",
+      "居家",
+      "有氧"
+    ]
+  },
+  {
+    "sku_id": "JD-10221",
+    "title": "Peloton 智能健身单车",
+    "price": 8999.0,
+    "original_price": 11699.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "17.1万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "健身车",
+      "Peloton",
+      "智能",
+      "室内",
+      "高端"
+    ]
+  },
+  {
+    "sku_id": "JD-10222",
+    "title": "Keep 智能健身单车",
+    "price": 1999.0,
+    "original_price": 2599.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "11.1万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "健身车",
+      "Keep",
+      "智能",
+      "居家",
+      "有氧"
+    ]
+  },
+  {
+    "sku_id": "JD-10223",
+    "title": "迈宝赫 壶铃家用健身",
+    "price": 159.0,
+    "original_price": 207.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "15.0万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "壶铃",
+      "迈宝赫",
+      "家用",
+      "健身",
+      "力量"
+    ]
+  },
+  {
+    "sku_id": "JD-10224",
+    "title": "迪卡侬 腹肌板家用健腹",
+    "price": 199.0,
+    "original_price": 259.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "16.2万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "健腹板",
+      "迪卡侬",
+      "腹肌",
+      "家用",
+      "健身"
+    ]
+  },
+  {
+    "sku_id": "JD-10225",
+    "title": "动境 哑铃可调节重量",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "8.3万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "哑铃",
+      "动境",
+      "可调节",
+      "力量",
+      "家用"
+    ]
+  },
+  {
+    "sku_id": "JD-10226",
+    "title": "迪卡侬 瑜伽垫TPE防滑",
+    "price": 79.0,
+    "original_price": 103.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "15.2万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "瑜伽垫",
+      "迪卡侬",
+      "TPE",
+      "防滑",
+      "环保"
+    ]
+  },
+  {
+    "sku_id": "JD-10227",
+    "title": "Lululemon 瑜伽垫5mm",
+    "price": 480.0,
+    "original_price": 624.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "13.9万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "瑜伽垫",
+      "Lululemon",
+      "瑜伽",
+      "高端",
+      "防滑"
+    ]
+  },
+  {
+    "sku_id": "JD-10228",
+    "title": "Manduka 瑜伽垫专业Pro",
+    "price": 780.0,
+    "original_price": 1014.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "11.4万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "瑜伽垫",
+      "Manduka",
+      "专业",
+      "耐用",
+      "高端"
+    ]
+  },
+  {
+    "sku_id": "JD-10229",
+    "title": "Keep 泡沫轴按摩滚轴",
+    "price": 59.0,
+    "original_price": 77.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "8.1万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "泡沫轴",
+      "Keep",
+      "按摩",
+      "放松",
+      "肌肉"
+    ]
+  },
+  {
+    "sku_id": "JD-10230",
+    "title": "迪卡侬 弹力带健身阻力",
+    "price": 29.0,
+    "original_price": 38.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "4.5万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "弹力带",
+      "迪卡侬",
+      "阻力",
+      "健身",
+      "便携"
+    ]
+  },
+  {
+    "sku_id": "JD-10231",
+    "title": "Keep 跳绳可调节",
+    "price": 39.0,
+    "original_price": 51.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "6.0万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "跳绳",
+      "Keep",
+      "健身",
+      "有氧",
+      "居家"
+    ]
+  },
+  {
+    "sku_id": "JD-10232",
+    "title": "75帕 跳绳智能计数",
+    "price": 79.0,
+    "original_price": 103.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "2.7万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "跳绳",
+      "75帕",
+      "智能",
+      "计数",
+      "健身"
+    ]
+  },
+  {
+    "sku_id": "JD-10233",
+    "title": "迪卡侬 瑜伽砖泡沫EVA",
+    "price": 35.0,
+    "original_price": 46.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "7.1万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "瑜伽砖",
+      "迪卡侬",
+      "瑜伽",
+      "辅助",
+      "EVA"
+    ]
+  },
+  {
+    "sku_id": "JD-10234",
+    "title": "Keep 瑜伽铺巾防滑",
+    "price": 49.0,
+    "original_price": 64.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "12.8万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "瑜伽铺巾",
+      "Keep",
+      "瑜伽",
+      "防滑",
+      "卫生"
+    ]
+  },
+  {
+    "sku_id": "JD-10235",
+    "title": "Lululemon 瑜伽铺巾防滑",
+    "price": 180.0,
+    "original_price": 234.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "7.6万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "瑜伽铺巾",
+      "Lululemon",
+      "瑜伽",
+      "高端",
+      "防滑"
+    ]
+  },
+  {
+    "sku_id": "JD-10236",
+    "title": "迪卡侬 跑步腰包5L",
+    "price": 79.0,
+    "original_price": 103.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "9.9万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "腰包",
+      "迪卡侬",
+      "跑步",
+      "大容量",
+      "户外"
+    ]
+  },
+  {
+    "sku_id": "JD-10237",
+    "title": "Keep 跑步臂包手机臂包",
+    "price": 39.0,
+    "original_price": 51.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "1.4万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "臂包",
+      "Keep",
+      "跑步",
+      "手机",
+      "防水"
+    ]
+  },
+  {
+    "sku_id": "JD-10238",
+    "title": "迪卡侬 跑步帽空顶遮阳",
+    "price": 59.0,
+    "original_price": 77.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "7.2万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "跑步帽",
+      "迪卡侬",
+      "空顶",
+      "遮阳",
+      "透气"
+    ]
+  },
+  {
+    "sku_id": "JD-10239",
+    "title": "Keep 健身包大容量干湿分离",
+    "price": 159.0,
+    "original_price": 207.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "15.5万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "健身包",
+      "Keep",
+      "大容量",
+      "干湿分离",
+      "运动"
+    ]
+  },
+  {
+    "sku_id": "JD-10240",
+    "title": "Nike 跑步短裤Dri-FIT",
+    "price": 229.0,
+    "original_price": 298.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "8.7万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "跑步裤",
+      "Nike",
+      "Dri-FIT",
+      "透气",
+      "运动"
+    ]
+  },
+  {
+    "sku_id": "JD-10241",
+    "title": "Adidas 跑步上衣climalite",
+    "price": 199.0,
+    "original_price": 259.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "5.6万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "跑步衣",
+      "Adidas",
+      "climalite",
+      "透气",
+      "吸汗"
+    ]
+  },
+  {
+    "sku_id": "JD-10242",
+    "title": "Under Armour 跑步紧身衣",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "15.4万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "紧身衣",
+      "Under Armour",
+      "压缩",
+      "跑步",
+      "运动"
+    ]
+  },
+  {
+    "sku_id": "JD-10243",
+    "title": "Craft 跑步风衣透气防风",
+    "price": 499.0,
+    "original_price": 649.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "9.8万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "风衣",
+      "Craft",
+      "跑步",
+      "防风",
+      "透气"
+    ]
+  },
+  {
+    "sku_id": "JD-10244",
+    "title": "Salomon 跑步越野鞋Speedcross",
+    "price": 1199.0,
+    "original_price": 1559.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "8.9万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "越野鞋",
+      "Salomon",
+      "跑步",
+      "户外",
+      "抓地"
+    ]
+  },
+  {
+    "sku_id": "JD-10245",
+    "title": "Hoka 跑步鞋Speedgoat",
+    "price": 1099.0,
+    "original_price": 1429.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "8.0万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "越野鞋",
+      "Hoka",
+      "Speedgoat",
+      "跑步",
+      "缓震"
+    ]
+  },
+  {
+    "sku_id": "JD-10246",
+    "title": "Altra 跑步鞋零落差",
+    "price": 999.0,
+    "original_price": 1299.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "7.2万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "跑步鞋",
+      "Altra",
+      "零落差",
+      "越野",
+      "自然"
+    ]
+  },
+  {
+    "sku_id": "JD-10247",
+    "title": "La Sportiva 越野跑鞋",
+    "price": 1299.0,
+    "original_price": 1689.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "13.1万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "越野鞋",
+      "La Sportiva",
+      "跑步",
+      "户外",
+      "抓地"
+    ]
+  },
+  {
+    "sku_id": "JD-10248",
+    "title": "Nathan 跑步水壶腰带",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "99%",
+    "sales": "16.6万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "水壶腰带",
+      "Nathan",
+      "跑步",
+      "补水",
+      "长距离"
+    ]
+  },
+  {
+    "sku_id": "JD-10249",
+    "title": "Ultimate Direction 越野背包",
+    "price": 699.0,
+    "original_price": 909.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "16.4万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "越野背包",
+      "UD",
+      "跑步",
+      "长距离",
+      "户外"
+    ]
+  },
+  {
+    "sku_id": "JD-10250",
+    "title": "Salomon 越野背包SLAB",
+    "price": 899.0,
+    "original_price": 1169.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "96%",
+    "sales": "1.8万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "越野背包",
+      "Salomon",
+      "跑步",
+      "户外",
+      "专业"
+    ]
+  },
+  {
+    "sku_id": "JD-10251",
+    "title": "Garmin 越野手表Fenix 7S",
+    "price": 5980.0,
+    "original_price": 7774.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "99%",
+    "sales": "2.7万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "运动手表",
+      "Garmin",
+      "越野",
+      "GPS",
+      "长续航"
+    ]
+  },
+  {
+    "sku_id": "JD-10252",
+    "title": "Suunto 越野手表Race",
+    "price": 4299.0,
+    "original_price": 5589.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "99%",
+    "sales": "3.5万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "运动手表",
+      "Suunto",
+      "越野",
+      "Race",
+      "轻薄"
+    ]
+  },
+  {
+    "sku_id": "JD-10253",
+    "title": "COROS 越野手表Apex 2 Pro",
+    "price": 3999.0,
+    "original_price": 5199.0,
+    "shop_name": "数码电器专营店",
+    "good_rate": "98%",
+    "sales": "7.0万",
+    "category": "数码电器",
+    "icon_emoji": "📱",
+    "bg_color": "#b366ff",
+    "tags": [
+      "运动手表",
+      "COROS",
+      "越野",
+      "Apex",
+      "长续航"
+    ]
+  },
+  {
+    "sku_id": "JD-10254",
+    "title": "Petzl 头灯 swift RL",
+    "price": 699.0,
+    "original_price": 909.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "97%",
+    "sales": "8.3万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "头灯",
+      "Petzl",
+      "越野",
+      "夜跑",
+      "超亮"
+    ]
+  },
+  {
+    "sku_id": "JD-10255",
+    "title": "Black Diamond 头灯Spot",
+    "price": 299.0,
+    "original_price": 389.0,
+    "shop_name": "运动户外专营店",
+    "good_rate": "98%",
+    "sales": "13.8万",
+    "category": "运动户外",
+    "icon_emoji": "🏕️",
+    "bg_color": "#2eb85c",
+    "tags": [
+      "头灯",
+      "Black Diamond",
+      "越野",
+      "夜跑",
+      "经典"
+    ]
+  },
+  {
+    "sku_id": "JD-10256",
+    "title": "可优比 母婴腰凳婴儿背带",
+    "price": 199.0,
+    "original_price": 259.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "99%",
+    "sales": "5.2万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "腰凳",
+      "可优比",
+      "婴儿背带",
+      "母婴",
+      "解放双手"
+    ]
+  },
+  {
+    "sku_id": "JD-10257",
+    "title": "Ergobaby 婴儿背带360度",
+    "price": 899.0,
+    "original_price": 1169.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "99%",
+    "sales": "4.8万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "婴儿背带",
+      "Ergobaby",
+      "腰凳",
+      "母婴",
+      "护脊"
+    ]
+  },
+  {
+    "sku_id": "JD-10258",
+    "title": "好孩子 婴儿推车轻便折叠",
+    "price": 599.0,
+    "original_price": 779.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "8.6万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "婴儿推车",
+      "好孩子",
+      "轻便",
+      "折叠",
+      "出行"
+    ]
+  },
+  {
+    "sku_id": "JD-10259",
+    "title": "Bugaboo 高景观婴儿推车",
+    "price": 6999.0,
+    "original_price": 9099.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "18.0万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "婴儿推车",
+      "Bugaboo",
+      "高景观",
+      "高端",
+      "舒适"
+    ]
+  },
+  {
+    "sku_id": "JD-10260",
+    "title": "Stokke 婴儿推车Xplory",
+    "price": 8999.0,
+    "original_price": 11699.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "98%",
+    "sales": "4.3万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "婴儿推车",
+      "Stokke",
+      "高景观",
+      "高端",
+      "设计"
+    ]
+  },
+  {
+    "sku_id": "JD-10261",
+    "title": "Cybex 婴儿安全座椅",
+    "price": 2999.0,
+    "original_price": 3899.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "14.1万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "安全座椅",
+      "Cybex",
+      "汽车",
+      "安全",
+      "高端"
+    ]
+  },
+  {
+    "sku_id": "JD-10262",
+    "title": "Britax 儿童安全座椅",
+    "price": 2299.0,
+    "original_price": 2989.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "13.6万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "安全座椅",
+      "Britax",
+      "汽车",
+      "安全",
+      "进口"
+    ]
+  },
+  {
+    "sku_id": "JD-10263",
+    "title": "感恩 儿童安全座椅isofix",
+    "price": 899.0,
+    "original_price": 1169.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "97%",
+    "sales": "3.8万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "安全座椅",
+      "感恩",
+      "isofix",
+      "汽车",
+      "安全"
+    ]
+  },
+  {
+    "sku_id": "JD-10264",
+    "title": "费雪 婴儿摇椅安抚",
+    "price": 399.0,
+    "original_price": 519.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "11.3万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "摇椅",
+      "费雪",
+      "婴儿",
+      "安抚",
+      "安抚"
+    ]
+  },
+  {
+    "sku_id": "JD-10265",
+    "title": "4moms 婴儿摇椅智能",
+    "price": 1599.0,
+    "original_price": 2079.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "97%",
+    "sales": "2.5万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "摇椅",
+      "4moms",
+      "智能",
+      "婴儿",
+      "高端"
+    ]
+  },
+  {
+    "sku_id": "JD-10266",
+    "title": "澳贝 婴儿健身架脚踏琴",
+    "price": 169.0,
+    "original_price": 220.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "10.3万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "健身架",
+      "澳贝",
+      "婴儿",
+      "早教",
+      "益智"
+    ]
+  },
+  {
+    "sku_id": "JD-10267",
+    "title": "曼龙 婴儿爬行垫加厚",
+    "price": 129.0,
+    "original_price": 168.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "97%",
+    "sales": "8.5万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "爬行垫",
+      "曼龙",
+      "婴儿",
+      "加厚",
+      "环保"
+    ]
+  },
+  {
+    "sku_id": "JD-10268",
+    "title": "帕克伦 婴儿爬行垫折叠",
+    "price": 199.0,
+    "original_price": 259.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "98%",
+    "sales": "13.9万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "爬行垫",
+      "帕克伦",
+      "折叠",
+      "婴儿",
+      "便携"
+    ]
+  },
+  {
+    "sku_id": "JD-10269",
+    "title": "babycare 婴儿辅食碗套装",
+    "price": 89.0,
+    "original_price": 116.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "97%",
+    "sales": "11.0万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "辅食碗",
+      "babycare",
+      "婴儿",
+      "硅胶",
+      "安全"
+    ]
+  },
+  {
+    "sku_id": "JD-10270",
+    "title": "贝亲 Pigeon 辅食研磨碗",
+    "price": 79.0,
+    "original_price": 103.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "14.1万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "辅食碗",
+      "贝亲",
+      "研磨",
+      "婴儿",
+      "辅食"
+    ]
+  },
+  {
+    "sku_id": "JD-10271",
+    "title": "NUK 儿童学习杯吸管杯",
+    "price": 69.0,
+    "original_price": 90.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "97%",
+    "sales": "17.4万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "学习杯",
+      "NUK",
+      "儿童",
+      "吸管",
+      "训练"
+    ]
+  },
+  {
+    "sku_id": "JD-10272",
+    "title": "膳魔师 儿童保温杯350ml",
+    "price": 159.0,
+    "original_price": 207.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "10.5万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "保温杯",
+      "膳魔师",
+      "儿童",
+      "保温",
+      "安全"
+    ]
+  },
+  {
+    "sku_id": "JD-10273",
+    "title": "象印 儿童保温杯300ml",
+    "price": 179.0,
+    "original_price": 233.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "98%",
+    "sales": "10.5万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "保温杯",
+      "象印",
+      "儿童",
+      "保温",
+      "可爱"
+    ]
+  },
+  {
+    "sku_id": "JD-10274",
+    "title": "虎牌 儿童保温杯直饮型",
+    "price": 169.0,
+    "original_price": 220.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "99%",
+    "sales": "7.3万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "保温杯",
+      "虎牌",
+      "儿童",
+      "直饮",
+      "安全"
+    ]
+  },
+  {
+    "sku_id": "JD-10275",
+    "title": "Munchkin 满趣健 儿童餐具",
+    "price": 99.0,
+    "original_price": 129.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "97%",
+    "sales": "1.6万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "餐具",
+      "Munchkin",
+      "儿童",
+      "硅胶",
+      "安全"
+    ]
+  },
+  {
+    "sku_id": "JD-10276",
+    "title": "OXO 儿童学习餐具套装",
+    "price": 129.0,
+    "original_price": 168.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "97%",
+    "sales": "2.1万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "餐具",
+      "OXO",
+      "儿童",
+      "学习",
+      "人体工学"
+    ]
+  },
+  {
+    "sku_id": "JD-10277",
+    "title": "美赞臣 婴儿奶粉蓝臻3段",
+    "price": 328.0,
+    "original_price": 426.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "98%",
+    "sales": "15.4万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "奶粉",
+      "美赞臣",
+      "蓝臻",
+      "婴儿",
+      "营养"
+    ]
+  },
+  {
+    "sku_id": "JD-10278",
+    "title": "惠氏 启赋 婴儿奶粉3段",
+    "price": 398.0,
+    "original_price": 517.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "14.4万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "奶粉",
+      "惠氏",
+      "启赋",
+      "婴儿",
+      "高端"
+    ]
+  },
+  {
+    "sku_id": "JD-10279",
+    "title": "雀巢 BEBA 婴儿奶粉",
+    "price": 298.0,
+    "original_price": 387.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "6.4万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "奶粉",
+      "雀巢",
+      "BEBA",
+      "婴儿",
+      "德国"
+    ]
+  },
+  {
+    "sku_id": "JD-10280",
+    "title": "喜宝 婴儿奶粉有机",
+    "price": 268.0,
+    "original_price": 348.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "99%",
+    "sales": "12.0万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "奶粉",
+      "喜宝",
+      "HiPP",
+      "有机",
+      "德国"
+    ]
+  },
+  {
+    "sku_id": "JD-10281",
+    "title": "a2 至初 婴儿奶粉3段",
+    "price": 358.0,
+    "original_price": 465.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "9.3万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "奶粉",
+      "a2",
+      "至初",
+      "婴儿",
+      "A2蛋白"
+    ]
+  },
+  {
+    "sku_id": "JD-10282",
+    "title": "贝拉米 婴儿奶粉有机",
+    "price": 288.0,
+    "original_price": 374.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "98%",
+    "sales": "0.5万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "奶粉",
+      "贝拉米",
+      "Bellamy's",
+      "有机",
+      "澳洲"
+    ]
+  },
+  {
+    "sku_id": "JD-10283",
+    "title": "好奇 铂金纸尿裤NB",
+    "price": 169.0,
+    "original_price": 220.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "99%",
+    "sales": "14.9万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "纸尿裤",
+      "好奇",
+      "铂金",
+      "NB",
+      "透气"
+    ]
+  },
+  {
+    "sku_id": "JD-10284",
+    "title": "花王妙而舒纸尿裤S码",
+    "price": 149.0,
+    "original_price": 194.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "8.0万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "纸尿裤",
+      "花王",
+      "妙而舒",
+      "日本",
+      "透气"
+    ]
+  },
+  {
+    "sku_id": "JD-10285",
+    "title": "大王天使纸尿裤M码",
+    "price": 159.0,
+    "original_price": 207.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "98%",
+    "sales": "11.5万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "纸尿裤",
+      "大王",
+      "天使",
+      "轻薄",
+      "透气"
+    ]
+  },
+  {
+    "sku_id": "JD-10286",
+    "title": "尤妮佳 皇家纸尿裤",
+    "price": 139.0,
+    "original_price": 181.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "99%",
+    "sales": "12.8万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "纸尿裤",
+      "尤妮佳",
+      "皇家",
+      "日本",
+      "舒适"
+    ]
+  },
+  {
+    "sku_id": "JD-10287",
+    "title": "碧芭宝贝 纸尿裤",
+    "price": 119.0,
+    "original_price": 155.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "99%",
+    "sales": "3.4万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "纸尿裤",
+      "碧芭",
+      "国货",
+      "透气",
+      "薄"
+    ]
+  },
+  {
+    "sku_id": "JD-10288",
+    "title": "露安适 纸尿裤日夜",
+    "price": 129.0,
+    "original_price": 168.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "98%",
+    "sales": "11.2万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "纸尿裤",
+      "露安适",
+      "日夜",
+      "分护",
+      "薄"
+    ]
+  },
+  {
+    "sku_id": "JD-10289",
+    "title": "Babycare 婴儿湿巾大包",
+    "price": 79.0,
+    "original_price": 103.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "99%",
+    "sales": "8.5万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "湿巾",
+      "babycare",
+      "婴儿",
+      "大包",
+      "温和"
+    ]
+  },
+  {
+    "sku_id": "JD-10290",
+    "title": "可心柔 婴儿抽纸",
+    "price": 49.0,
+    "original_price": 64.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "98%",
+    "sales": "6.0万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "抽纸",
+      "可心柔",
+      "婴儿",
+      "柔",
+      "云柔"
+    ]
+  },
+  {
+    "sku_id": "JD-10291",
+    "title": "德佑 婴儿口罩小号",
+    "price": 39.0,
+    "original_price": 51.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "97%",
+    "sales": "15.0万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "口罩",
+      "德佑",
+      "婴儿",
+      "小号",
+      "防护"
+    ]
+  },
+  {
+    "sku_id": "JD-10292",
+    "title": "全棉时代 婴儿棉柔巾",
+    "price": 39.0,
+    "original_price": 51.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "96%",
+    "sales": "5.2万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "棉柔巾",
+      "全棉时代",
+      "婴儿",
+      "纯棉",
+      "温和"
+    ]
+  },
+  {
+    "sku_id": "JD-10293",
+    "title": "Babycare 婴儿洗衣液",
+    "price": 49.0,
+    "original_price": 64.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "99%",
+    "sales": "4.6万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "洗衣液",
+      "babycare",
+      "婴儿",
+      "温和",
+      "除菌"
+    ]
+  },
+  {
+    "sku_id": "JD-10294",
+    "title": "保宁 婴儿洗衣液",
+    "price": 69.0,
+    "original_price": 90.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "99%",
+    "sales": "10.4万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "洗衣液",
+      "保宁",
+      "婴儿",
+      "进口",
+      "温和"
+    ]
+  },
+  {
+    "sku_id": "JD-10295",
+    "title": "红色小象 婴儿润肤乳",
+    "price": 59.0,
+    "original_price": 77.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "99%",
+    "sales": "6.3万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "润肤乳",
+      "红色小象",
+      "婴儿",
+      "保湿",
+      "温和"
+    ]
+  },
+  {
+    "sku_id": "JD-10296",
+    "title": "施巴 婴儿沐浴露",
+    "price": 89.0,
+    "original_price": 116.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "99%",
+    "sales": "15.4万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "沐浴露",
+      "施巴",
+      "婴儿",
+      "温和",
+      "无泪配方"
+    ]
+  },
+  {
+    "sku_id": "JD-10297",
+    "title": "加州宝宝 婴儿防晒霜",
+    "price": 99.0,
+    "original_price": 129.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "97%",
+    "sales": "8.9万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "防晒霜",
+      "加州宝宝",
+      "婴儿",
+      "物理防晒",
+      "温和"
+    ]
+  },
+  {
+    "sku_id": "JD-10298",
+    "title": "Thinkbaby 儿童防晒霜",
+    "price": 129.0,
+    "original_price": 168.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "98%",
+    "sales": "14.4万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "防晒霜",
+      "Thinkbaby",
+      "儿童",
+      "物理防晒",
+      "安全"
+    ]
+  },
+  {
+    "sku_id": "JD-10299",
+    "title": "戴可思 婴儿护臀膏",
+    "price": 49.0,
+    "original_price": 64.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "98%",
+    "sales": "5.2万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "护臀膏",
+      "戴可思",
+      "婴儿",
+      "红屁屁",
+      "氧化锌"
+    ]
+  },
+  {
+    "sku_id": "JD-10300",
+    "title": "康乃馨 婴儿护臀膏",
+    "price": 39.0,
+    "original_price": 51.0,
+    "shop_name": "母婴用品专营店",
+    "good_rate": "98%",
+    "sales": "10.1万",
+    "category": "母婴用品",
+    "icon_emoji": "🍼",
+    "bg_color": "#ff9db3",
+    "tags": [
+      "护臀膏",
+      "康乃馨",
+      "婴儿",
+      "红屁屁",
+      "修护"
+    ]
+  }
+]

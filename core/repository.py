@@ -128,8 +128,24 @@ def get_scenes(limit: int = 50) -> List[Dict[str, Any]]:
             "confidence": s.confidence,
             "keywords": s.keywords or [],
             "source_hotspot": s.source_hotspot or "",
+            "scene_type": s.scene_type,
+            "trigger_event": s.trigger_event,
+            "temporal_scope": s.temporal_scope,
+            "geo_scope": s.geo_scope,
+            "user_intent": s.user_intent,
+            "source": s.source,
             "created_at": s.created_at,
         } for s in rows]
+
+
+def insert_scene(scene: Dict[str, Any]) -> Optional[int]:
+    """插入一条场景，返回新 id（写操作串行化）。"""
+    with _write_lock, SessionLocal() as db:
+        obj = Scene(**scene)
+        db.add(obj)
+        db.commit()
+        db.refresh(obj)
+        return obj.id
 
 
 # ============== 推荐（首页 / 搜索） ==============
@@ -225,6 +241,11 @@ def _hydrate_from_objs(rows: List[Recommendation], scenes: Dict[int, Scene], pro
                 "title": s.title,
                 "description": s.description,
                 "keywords": s.keywords or [],
+                "trigger_event": s.trigger_event,
+                "target_population": s.target_user,
+                "temporal_scope": s.temporal_scope,
+                "scene_type": s.scene_type,
+                "source": s.source,
             } if s else None,
             "product": _serialize_product(p) if p else None,
         })

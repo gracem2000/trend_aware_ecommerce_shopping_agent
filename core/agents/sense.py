@@ -1,13 +1,19 @@
-"""感知 Agent：抓取热点 → 提取消费场景 → 入库（mock）。"""
-from datetime import timedelta
+"""感知 Agent：真实版（吸收 JD）。
+
+抓百度热搜（失败回退内置）→ LLM 场景挖掘（mock/glm）→ 智能去重 → 入库；
+再挖掘临近节日/节气的时节场景。
+无 GLM key 时自动走 mock LLM，系统仍可演示。
+"""
+from typing import List
 
 from core.agents.base import BaseAgent
-from core.database import SessionLocal, _write_lock
-from core.models import Scene, now_utc
-from core.seed import INITIAL_SCENES
+from core.config import HOT_FETCH_LIMIT, SCENE_LIMIT_PER_RUN
+from core.llm import is_mock
+from core.perception import dedup, hot, scene_builder, seasonal
+from core import repository as r
 
-# mock 抓取到的热点（与原 demo 一致）
-HOTSPOTS = [
+# 抓取失败时的内置兜底热点
+MOCK_HOTSPOTS = [
     "全国多地高温预警 跑步经济升温",
     "小红书露营话题累计曝光 50 亿",
     "居家健身视频播放量破百亿",
@@ -15,6 +21,9 @@ HOTSPOTS = [
     "健康轻食风潮席卷社交媒体",
     "智能穿戴市场 Q2 销量同比 +45%",
 ]
+
+# 每次最多挖掘几个时节场景（控 LLM 成本）
+SEASONAL_CAP = 2
 
 
 class SenseAgent(BaseAgent):
@@ -24,38 +33,75 @@ class SenseAgent(BaseAgent):
     def run(self) -> int:
         self.status("running", "正在抓取全网热点...")
         self.log("info", "[INIT] 感知 Agent 启动")
-        self.sleep(400)
-
-        self.log("info", "[FETCH] 接入微博/小红书/抖音热点 API...")
-        self.sleep(300)
-        for h in HOTSPOTS:
-            self.log("highlight", f"[HOT] 抓取到热点: {h}")
-            self.sleep(80)
-
-        self.log("info", "[LLM] 调用场景抽取模型 (mock)...")
         self.sleep(300)
 
-        # 读已有场景标题（判重）
-        with SessionLocal() as db:
-            existing_titles = {t for (t,) in db.query(Scene.title).all()}
+        # 1. 抓取热点（失败回退）
+        self.log("info", "[FETCH] 接入百度热搜...")
+        topics = hot.fetch_baidu_hot(limit=HOT_FETCH_LIMIT)
+        if topics:
+            for t in topics:
+                self.log("highlight", f"[HOT] {t['title'][:40]}")
+            titles = [t["title"] for t in topics]
+            self.log("info", f"[FETCH] 百度热搜抓到 {len(titles)} 条")
+        else:
+            self.log("warn", "[FETCH] 百度抓取失败/为空，回退内置热点")
+            titles = MOCK_HOTSPOTS[:]
+            for t in titles:
+                self.log("highlight", f"[HOT](内置) {t}")
 
-        to_insert = []
-        for s in INITIAL_SCENES:
-            if s["title"] in existing_titles:
-                continue
-            payload = dict(s)
-            payload["expires_at"] = now_utc() + timedelta(hours=72)
-            to_insert.append(Scene(**payload))
+        existing: List[dict] = r.get_scenes(100)
+        inserted = skipped = 0
 
-        # 写入（短事务，提交后立即释放写锁）
-        if to_insert:
-            with _write_lock, SessionLocal() as db:
-                db.add_all(to_insert)
-                db.commit()
-            for s in to_insert:
-                self.log("info", f"[EXTRACT] 新增场景: {s.title}")
+        # 2. 热点场景挖掘
+        mode = "mock" if is_mock() else "GLM"
+        self.log("info", f"[LLM] 调用场景挖掘模型 ({mode})，处理前 {SCENE_LIMIT_PER_RUN} 条...")
+        for topic in titles[:SCENE_LIMIT_PER_RUN]:
+            ok = self._mine_one(topic, source="hotspot", existing=existing)
+            if ok:
+                inserted += 1
+            else:
+                skipped += 1
 
-        self.log("info", f"[STORE] 场景库当前 {len(existing_titles) + len(to_insert)} 条场景 (新增 {len(to_insert)} 条)")
-        self.status("done", f"已更新 {len(to_insert)} 个新场景")
+        # 3. 时节场景挖掘
+        events = seasonal.get_current_seasonal_events()
+        if events:
+            cap = min(SEASONAL_CAP, len(events))
+            self.log("info", f"[SEASON] 临近时节事件 {len(events)} 个，挖掘前 {cap} 个")
+            for ev in events[:cap]:
+                ok = self._mine_one(
+                    ev["name"], source="seasonal", source_detail=ev["name"],
+                    existing=existing,
+                    temporal_override=seasonal.calculate_temporal_scope(ev["date_obj"], ev["days_until"]),
+                )
+                if ok:
+                    inserted += 1
+                else:
+                    skipped += 1
+
+        self.log("info", f"[STORE] 场景库新增 {inserted} / 去重跳过 {skipped}")
+        self.status("done", f"已更新 {inserted} 个新场景")
         self.log("info", "[DONE] 感知 Agent 完成")
-        return len(to_insert)
+        return inserted
+
+    def _mine_one(self, topic: str, source: str, existing: List[dict],
+                  source_detail: str = "", temporal_override: str = "") -> bool:
+        """挖掘单条主题：LLM 生成 → 组装 → 去重 → 入库。返回是否成功插入。"""
+        self.sleep(200)
+        data = self.llm.generate_scene(topic)
+        scene = scene_builder.build_scene(topic, data, source=source, source_detail=source_detail)
+        if temporal_override:
+            cur = scene.get("temporal_scope") or ""
+            if (not cur) or "全年" in cur or "未知" in cur:
+                scene["temporal_scope"] = temporal_override
+
+        dup, reason = dedup.find_duplicate(scene, existing)
+        if dup:
+            tag = "时节" if source == "seasonal" else ""
+            self.log("info", f"[SKIP] {tag}「{scene['title']}」与已有「{dup['title']}」重复: {reason}")
+            return False
+
+        sid = r.insert_scene(scene)
+        existing.insert(0, {**scene, "id": sid, "created_at": None})
+        label = "时节场景" if source == "seasonal" else "场景"
+        self.log("info", f"[EXTRACT] 新增{label}: {scene['title']}（{scene.get('scene_type') or source}）")
+        return True

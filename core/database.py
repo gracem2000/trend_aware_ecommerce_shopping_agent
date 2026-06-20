@@ -45,9 +45,31 @@ def get_session():
     return SessionLocal()
 
 
+def _migrate():
+    """轻量迁移：给老库补 Scene 的吸收字段。幂等（PRAGMA 检查后 ALTER）。"""
+    from sqlalchemy import text
+
+    new_cols = [
+        ("scene_type", "TEXT"), ("trigger_event", "TEXT"), ("temporal_scope", "TEXT"),
+        ("geo_scope", "TEXT"), ("user_intent", "TEXT"), ("source", "TEXT"),
+    ]
+    with engine.connect() as conn:
+        exists = conn.execute(
+            text("SELECT name FROM sqlite_master WHERE type='table' AND name='scenes'")
+        ).fetchone()
+        if not exists:
+            return  # 全新库：create_all 会按最新模型建表，无需迁移
+        existing = {row[1] for row in conn.execute(text("PRAGMA table_info(scenes)"))}
+        for col, typ in new_cols:
+            if col not in existing:
+                conn.execute(text(f"ALTER TABLE scenes ADD COLUMN {col} {typ}"))
+        conn.commit()
+
+
 def init_db():
-    """建表 + 种子数据。幂等，可安全重复调用。"""
+    """建表 + 迁移 + 种子数据。幂等，可安全重复调用。"""
     Base.metadata.create_all(engine)
+    _migrate()
     # 延迟导入避免循环依赖
     from core.seed import seed_if_empty
 

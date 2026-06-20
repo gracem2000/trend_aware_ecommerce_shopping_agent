@@ -3,11 +3,11 @@
 文案生成走 self.llm.complete()（mock 返回模板化文案）；后续接真模型只换 LLMClient。
 """
 import random
-from datetime import timedelta
 
 from core.agents.base import BaseAgent
+from core.config import MIN_CONFIDENCE
 from core.database import SessionLocal, _write_lock
-from core.models import Product, Recommendation, Scene, SceneProduct, now_utc
+from core.models import Product, Recommendation, Scene, SceneProduct
 
 EXTRA_TAGS = ["爆款潜力", "全网热销", "高性价比", "智能优选", "夏季必备"]
 
@@ -21,13 +21,13 @@ class CopyAgent(BaseAgent):
         self.log("info", "[INIT] 导购生成 Agent 启动")
         self.sleep(300)
 
-        self.log("info", "[QUERY] 读取高分关联 (score > 0.7)")
+        self.log("info", f"[QUERY] 读取关联 (score >= {MIN_CONFIDENCE})")
         self.sleep(200)
 
         with SessionLocal() as db:
             sp_rows = (
                 db.query(SceneProduct)
-                .filter(SceneProduct.match_score >= 0.7)
+                .filter(SceneProduct.match_score >= MIN_CONFIDENCE)
                 .order_by(SceneProduct.match_score.desc())
                 .limit(50)
                 .all()
@@ -71,9 +71,9 @@ class CopyAgent(BaseAgent):
             ))
             log_lines.append((p["title"][:6], tag1, tag2))
 
-        cutoff = now_utc() - timedelta(hours=1)
+        # 每次全量重建推荐：先清空再写入，避免跨多次运行累积重复
         with _write_lock, SessionLocal() as db:
-            db.query(Recommendation).filter(Recommendation.created_at < cutoff).delete(synchronize_session=False)
+            db.query(Recommendation).delete(synchronize_session=False)
             db.add_all(new_recs)
             db.commit()
 

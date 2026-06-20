@@ -103,33 +103,36 @@ docker run --rm -p 8501:8501 -v "$PWD/data:/data" -e DATABASE_PATH=/data/app.db 
 
 ### 加 / 改商品
 
-编辑 `core/seed.py` 的 `INITIAL_PRODUCTS`。字段：`sku_id / title / price / original_price / shop_name / good_rate / sales / category / icon_emoji / bg_color / tags`。改完删 `data/app.db` 重启即可重新种子。
+商品库在 `data/products.json`（300 条，转换自 JD 项目，13 个品类），首启自动种子。
+字段：`sku_id / title / price / original_price / shop_name / good_rate / sales / category / icon_emoji / bg_color / tags`。
+改完删 `data/app.db` 重启即重新种子（文件不存在时回退到 `core/seed.py` 内置的 12 条）。
 
-> 想在不重置的情况下加商品：可以用 `sqlite3 data/app.db` 直接往 `products` 表插，或临时写个小脚本走 `core.database.SessionLocal`。
+> 想在不重置的情况下加商品：用 `sqlite3 data/app.db` 直接往 `products` 表插，或走 `core.database.SessionLocal` 写小脚本。
 
 ### 加 / 改场景
 
-编辑 `core/seed.py` 的 `INITIAL_SCENES`，`keywords` 用于和商品 `tags`/`category` 做匹配。
+种子场景在 `core/seed.py` 的 `INITIAL_SCENES`；运行时由感知 Agent 自动挖掘（见下）。`keywords` 用于和商品 `tags`/`category` 匹配。
 
-### 接真实大模型（把 mock 换成真 LLM）
+### 感知层（吸收自 JD 项目）+ 接真实 GLM
 
-1. 新建 `core/llm_deepseek.py`（或 openai/glm），写一个继承 `LLMClient` 的类，实现 `complete(prompt)`：
-   ```python
-   from core.llm import LLMClient
-   class DeepSeekLLMClient(LLMClient):
-       def complete(self, prompt: str) -> str:
-           # 调用对应 SDK，返回模型文本
-           ...
-   ```
-2. 在 `core/llm.py` 的 `get_llm()` 里加一个分支：
-   ```python
-   elif provider == "deepseek":
-       from core.llm_deepseek import DeepSeekLLMClient
-       _LLM_SINGLETON = DeepSeekLLMClient()
-   ```
-3. 设置环境变量 `LLM_PROVIDER=deepseek`（以及模型 API key 等）。
+感知/挂品已从 mock 升级为真实逻辑：**感知 Agent** 抓百度热搜 + 临近节日/节气 → LLM 挖掘结构化场景 → 智能去重入库；**挂品 Agent** 用标题1.0/标签0.8/类目0.5 的原理化打分匹配 300 商品。LLM 通过 `core/llm.py` 的 `LLMClient` 抽象切换：
 
-挂品 Agent 的匹配逻辑、其余 Agent 不用改 —— 这就是预留的「可替换接口」。
+- **mock 模式**（默认，`LLM_PROVIDER=mock`，无需 key）：热点照常真实抓取，场景/文案用本地模板生成。**演示不依赖任何付费服务，永远能跑。**
+- **真实模式**（`LLM_PROVIDER=glm` + `ZHIPU_API_KEY`）：`core/llm_glm.py` 用 zai-sdk 调智谱 GLM，场景名/触发事件/推荐理由都是模型真实生成。GLM 报错/超时会自动降级返回空场景，不崩。
+
+启用真实模式：
+```bash
+# .env 里
+LLM_PROVIDER=glm
+ZHIPU_API_KEY=你的智谱key
+DEFAULT_MODEL=glm-4.6   # 或 glm-5.1 等，按账号可用模型调整
+# 真实模式建议拉长调度间隔省额度：
+PIPELINE_INTERVAL_SECONDS=1800
+```
+
+> ⚠️ **安全**：API key 走 `.env`（已 gitignore）/ PaaS 环境变量 / Streamlit secrets，**切勿提交**。JD 原项目曾把明文 key 提交到 git，如复用请先去智谱后台**轮换（作废重发）**。
+
+接其他模型（DeepSeek/OpenAI…）：仿照 `core/llm_glm.py` 写一个实现 `LLMClient` 全部接口（`complete / generate_scene / generate_multiple_scenes / health_check`）的子类，在 `core/llm.py:get_llm()` 加分支即可，上层 Agent 不用改。
 
 ### 改流水线调度频率
 

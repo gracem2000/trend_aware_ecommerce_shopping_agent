@@ -1,0 +1,296 @@
+{
+  "traditional_festivals": [
+    {
+      "name": "春节",
+      "date": "01-01",
+      "description": "农历新年，中国最重要的传统节日",
+      "keywords": ["春联", "红包", "年货", "腊肉", "灯笼", "年糕", "饺子"],
+      "target_population": "全体家庭成员"
+    },
+    {
+      "name": "元宵节",
+      "date": "01-15",
+      "description": "农历正月十五，赏花灯、吃元宵",
+      "keywords": ["元宵", "花灯", "汤圆", "灯笼"],
+      "target_population": "家庭、儿童"
+    },
+    {
+      "name": "清明节",
+      "date": "04-04",
+      "description": "祭祖扫墓的传统节日",
+      "keywords": ["青团", "祭品", "鲜花", "扫墓用品"],
+      "target_population": "成年人"
+    },
+    {
+      "name": "端午节",
+      "date": "05-05",
+      "description": "纪念屈原，赛龙舟、吃粽子",
+      "keywords": ["粽子", "咸鸭蛋", "礼盒", "艾草", "香囊"],
+      "target_population": "家庭主妇、礼品采购者"
+    },
+    {
+      "name": "七夕节",
+      "date": "07-07",
+      "description": "中国情人节，情侣庆祝节日",
+      "keywords": ["巧克力", "鲜花", "礼物", "情侣用品"],
+      "target_population": "情侣"
+    },
+    {
+      "name": "中秋节",
+      "date": "08-15",
+      "description": "团圆节，赏月吃月饼",
+      "keywords": ["月饼", "礼盒", "茶叶", "水果"],
+      "target_population": "家庭、礼品采购者"
+    },
+    {
+      "name": "重阳节",
+      "date": "09-09",
+      "description": "敬老节，登高赏秋",
+      "keywords": ["保健品", "登山用品", "礼品"],
+      "target_population": "老年人、登山爱好者"
+    },
+    {
+      "name": "春节",
+      "date": "01-29",
+      "description": "农历新年，传统最重要的节日",
+      "keywords": ["年货", "年夜饭", "春联", "红包", "烟花"],
+      "target_population": "全体家庭成员"
+    }
+  ],
+  "modern_festivals": [
+    {
+      "name": "元旦",
+      "date": "01-01",
+      "type": "solar",
+      "description": "公历新年",
+      "keywords": ["日历", "贺卡", "新年礼品"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "情人节",
+      "date": "02-14",
+      "type": "solar",
+      "description": "西方情人节",
+      "keywords": ["巧克力", "鲜花", "珠宝", "礼物"],
+      "target_population": "情侣"
+    },
+    {
+      "name": "妇女节",
+      "date": "03-08",
+      "type": "solar",
+      "description": "国际妇女节",
+      "keywords": ["化妆品", "护肤品", "礼品"],
+      "target_population": "女性"
+    },
+    {
+      "name": "劳动节",
+      "date": "05-01",
+      "type": "solar",
+      "description": "国际劳动节",
+      "keywords": ["旅游用品", "休闲用品"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "儿童节",
+      "date": "06-01",
+      "type": "solar",
+      "description": "国际儿童节",
+      "keywords": ["玩具", "儿童服装", "零食"],
+      "target_population": "儿童、家长"
+    },
+    {
+      "name": "教师节",
+      "date": "09-10",
+      "type": "solar",
+      "description": "教师节",
+      "keywords": ["礼品", "鲜花", "办公用品"],
+      "target_population": "教师、学生"
+    },
+    {
+      "name": "国庆节",
+      "date": "10-01",
+      "type": "solar",
+      "description": "国庆黄金周",
+      "keywords": ["旅游用品", "户外用品", "国旗"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "圣诞节",
+      "date": "12-25",
+      "type": "solar",
+      "description": "西方圣诞节",
+      "keywords": ["圣诞树", "装饰品", "礼物", "贺卡"],
+      "target_population": "年轻人、家庭"
+    }
+  ],
+  "solar_terms": [
+    {
+      "name": "立春",
+      "date": "02-04",
+      "description": "春季开始，万物复苏",
+      "keywords": ["春装", "踏青用品", "保健品"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "雨水",
+      "date": "02-19",
+      "description": "降雨开始，草木萌发",
+      "keywords": ["雨具", "防潮用品"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "惊蛰",
+      "date": "03-06",
+      "description": "春雷乍动，万物生长",
+      "keywords": ["春耕用品", "农具"],
+      "target_population": "农民、园艺爱好者"
+    },
+    {
+      "name": "春分",
+      "date": "03-21",
+      "description": "昼夜平分，春意盎然",
+      "keywords": ["春游用品", "风筝"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "清明",
+      "date": "04-05",
+      "description": "气清景明，万物皆显",
+      "keywords": ["青团", "踏青用品"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "谷雨",
+      "date": "04-20",
+      "description": "雨水增多，谷物生长",
+      "keywords": ["雨具", "农具"],
+      "target_population": "农民"
+    },
+    {
+      "name": "立夏",
+      "date": "05-06",
+      "description": "夏季开始，万物繁茂",
+      "keywords": ["夏装", "防晒用品", "凉席"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "小满",
+      "date": "05-21",
+      "description": "麦类作物籽粒开始饱满",
+      "keywords": ["农具", "收割用品"],
+      "target_population": "农民"
+    },
+    {
+      "name": "芒种",
+      "date": "06-06",
+      "description": "麦类等有芒作物成熟",
+      "keywords": ["农具", "收割机"],
+      "target_population": "农民"
+    },
+    {
+      "name": "夏至",
+      "date": "06-21",
+      "description": "炎热将至，白昼最长",
+      "keywords": ["夏装", "防晒用品", "空调扇"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "小暑",
+      "date": "07-07",
+      "description": "暑热开始，蝉鸣蛙噪",
+      "keywords": ["降温用品", "防晒霜", "遮阳伞"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "大暑",
+      "date": "07-23",
+      "description": "一年中最热时期",
+      "keywords": ["空调", "降温用品", "冰饮"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "立秋",
+      "date": "08-08",
+      "description": "秋季开始，暑去凉来",
+      "keywords": ["秋装", "保健用品"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "处暑",
+      "date": "08-23",
+      "description": "暑热渐消，秋意渐浓",
+      "keywords": ["秋装", "开学用品"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "白露",
+      "date": "09-08",
+      "description": "天气转凉，露凝而白",
+      "keywords": ["保暖用品", "秋装"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "秋分",
+      "date": "09-23",
+      "description": "昼夜平分，秋高气爽",
+      "keywords": ["户外用品", "运动装备"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "寒露",
+      "date": "10-08",
+      "description": "露水更凉，将要结冰",
+      "keywords": ["保暖用品", "秋装"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "霜降",
+      "date": "10-23",
+      "description": "天气渐冷，开始有霜",
+      "keywords": ["保暖用品", "冬装"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "立冬",
+      "date": "11-08",
+      "description": "冬季开始，万物收藏",
+      "keywords": ["冬装", "保暖用品", "暖宝宝"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "小雪",
+      "date": "11-22",
+      "description": "开始降雪，但雪量不大",
+      "keywords": ["冬装", "除雪用品"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "大雪",
+      "date": "12-07",
+      "description": "降雪量增大，天气寒冷",
+      "keywords": ["冬装", "保暖用品", "火锅"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "冬至",
+      "date": "12-22",
+      "description": "寒冬来临，白昼最短",
+      "keywords": ["饺子", "保暖用品", "冬装"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "小寒",
+      "date": "01-06",
+      "description": "寒冷天气将至",
+      "keywords": ["保暖用品", "冬装"],
+      "target_population": "全体人群"
+    },
+    {
+      "name": "大寒",
+      "date": "01-20",
+      "description": "一年中最冷时期",
+      "keywords": ["保暖用品", "冬装", "暖宝宝"],
+      "target_population": "全体人群"
+    }
+  ]
+}

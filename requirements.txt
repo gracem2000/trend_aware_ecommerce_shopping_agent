@@ -2,3 +2,11 @@
 streamlit>=1.36.0        # 需要 st.fragment 稳定版做实时刷新
 SQLAlchemy>=2.0.0        # SQLite ORM
 python-dotenv>=1.0.0     # 读取 .env
+
+# —— 感知层（吸收自 JD 项目，真实 LLM + 热搜抓取）——
+zai-sdk>=0.2.0            # 智谱 GLM 客户端（Anthropic 兼容）；无 key 时自动降级 mock
+httpx[socks]>=0.27.0      # zai-sdk 依赖 httpx；带 socks 是为支持 SOCKS 代理（部分开发环境需要）
+requests>=2.31.0          # 百度热搜抓取
+beautifulsoup4>=4.12.0    # 热搜 HTML 解析
+lxml>=5.0.0               # bs4 解析后端
+python-dateutil>=2.8.0    # 时节日期处理

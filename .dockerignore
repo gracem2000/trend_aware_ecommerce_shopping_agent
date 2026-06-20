@@ -1,6 +1,10 @@
 # 容器构建时忽略这些（不打进镜像）
 .venv/
-data/
+# 只排除 SQLite 运行时文件，保留 data/*.json 种子数据（products.json/festivals.json）
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.sqlite*
 .git/
 .gitignore
 __pycache__/

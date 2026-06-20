@@ -3,9 +3,29 @@
 数据从原 main.py 的 INITIAL_PRODUCTS / INITIAL_SCENES / AGENT_DEFS 迁移。
 tags / keywords 在 ORM 层是 JSON 列，直接传 list 即可。
 """
+import json
 from datetime import timedelta
+from typing import List
 
+from core.config import ROOT
 from core.models import AgentStatus, Product, Scene, now_utc
+
+# 商品库文件（300 条，转换自 JD 项目；不存在则回退下面的 INITIAL_PRODUCTS）
+PRODUCTS_JSON_PATH = ROOT / "data" / "products.json"
+
+
+def _load_products() -> List[dict]:
+    """从 data/products.json 加载商品库；失败则回退内置 12 条。"""
+    try:
+        with open(PRODUCTS_JSON_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        if isinstance(data, list) and data:
+            return data
+    except FileNotFoundError:
+        print(f"[seed] {PRODUCTS_JSON_PATH} 不存在，回退内置商品")
+    except Exception as e:  # noqa: BLE001
+        print(f"[seed] 加载 {PRODUCTS_JSON_PATH} 失败: {e}，回退内置商品")
+    return INITIAL_PRODUCTS
 
 # 4 个 Agent 定义（key 与 agent_status.agent_name 对应）
 AGENT_DEFS = [
@@ -57,13 +77,15 @@ def seed_if_empty(db):
     seeded = []
 
     if db.query(Product).count() == 0:
-        for p in INITIAL_PRODUCTS:
+        products = _load_products()
+        for p in products:
             db.add(Product(**p))
-        seeded.append(f"{len(INITIAL_PRODUCTS)} 商品")
+        seeded.append(f"{len(products)} 商品")
 
     if db.query(Scene).count() == 0:
         for s in INITIAL_SCENES:
             payload = dict(s)
+            payload["source"] = "seed"
             payload["expires_at"] = now_utc() + timedelta(hours=72)
             db.add(Scene(**payload))
         seeded.append(f"{len(INITIAL_SCENES)} 场景")

@@ -93,6 +93,7 @@ CSS = """
 .pc-tag { font-size: 11px; color: var(--link); background: rgba(37,99,235,.08);
   padding: 2px 8px; border-radius: 999px; }
 .pc-scene { font-size: 12px; color: var(--success); font-weight: 500; }
+.pc-scene-extra { color: var(--text-muted); font-weight: 400; margin-left: 4px; font-size: 11px; }
 .pc-reason { font-size: 12px; color: var(--text-secondary); line-height: 1.5;
   background: var(--bg-panel); padding: 6px 8px; border-radius: 8px; }
 
