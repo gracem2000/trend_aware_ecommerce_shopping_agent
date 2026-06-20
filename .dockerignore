@@ -1,0 +1,20 @@
+# 容器构建时忽略这些（不打进镜像）
+.venv/
+data/
+.git/
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+*.log
+.env
+README.md
+DESIGN.md
+assets/
+.codegraph/
+.cozeproj/

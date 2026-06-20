@@ -1,0 +1,4 @@
+# 热点电商导购系统（Streamlit 版）依赖
+streamlit>=1.36.0        # 需要 st.fragment 稳定版做实时刷新
+SQLAlchemy>=2.0.0        # SQLite ORM
+python-dotenv>=1.0.0     # 读取 .env

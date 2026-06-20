@@ -1,0 +1,9 @@
+# Railway 部署配置
+# 用法：连 GitHub 仓库 → Railway 自动用本目录 Dockerfile 构建。
+# 持久化：在 Railway 控制台给服务添加一个 Volume，挂载到 /data（DATABASE_PATH 默认指向 /data/app.db）。
+
+[deploy]
+startCommand = "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true --browser.gatherUsageStats=false"
+healthcheckPath = "/_stcore/health"
+healthcheckTimeout = 30
+restartPolicyType = "ON_FAILURE"

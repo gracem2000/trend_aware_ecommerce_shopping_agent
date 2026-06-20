@@ -1,0 +1,16 @@
+# Streamlit 主题与服务配置
+# 文档：https://docs.streamlit.io/library/advanced-concepts/configuration
+
+[theme]
+base = "light"
+primaryColor = "#ff6b35"          # 品牌橙（影响原生主按钮等；商品卡等已用自定义 CSS）
+backgroundColor = "#f7f8fa"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#111827"
+font = "sans serif"
+
+[server]
+headless = true                   # 容器内运行，不自动开浏览器
+
+[browser]
+gatherUsageStats = false          # 关闭遥测

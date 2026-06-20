@@ -1,0 +1,18 @@
+# Render 部署配置（Blueprints）
+# 用法：在 Render 后台 New > Blueprint 选本仓库。
+# 注意：disk（持久化磁盘）需付费方案；免费方案每次重新部署 SQLite 会重置（自动 re-seed 演示数据）。
+
+services:
+  - type: web
+    name: trend-shop
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true --browser.gatherUsageStats=false
+    envVars:
+      - key: DATABASE_PATH
+        value: /data/app.db
+    disk:
+      name: data
+      mountPath: /data
+      sizeGB: 1
+    healthCheckPath: /_stcore/health

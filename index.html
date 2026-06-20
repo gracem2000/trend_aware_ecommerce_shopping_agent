@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>热点商城 · 智能导购</title>
+  <link rel="preconnect" href="https://fonts.googleapis.cn" />
+  <link rel="preconnect" href="https://fonts.gstatic.cn" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.cn/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="/styles/main.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__left">
+      <div class="logo" aria-label="热点商城">
+        <span class="logo__dot"></span>
+        <span class="logo__text">热点商城</span>
+        <span class="logo__sub">智能导购</span>
+      </div>
+    </div>
+    <div class="topbar__center">
+      <div class="search">
+        <span class="search__icon" aria-hidden="true">⌕</span>
+        <input
+          id="search-input"
+          class="search__input"
+          type="text"
+          placeholder="搜索商品名、场景关键词、品牌…"
+          autocomplete="off"
+        />
+        <button id="search-btn" class="search__btn" type="button">搜索</button>
+      </div>
+    </div>
+    <div class="topbar__right">
+      <div class="status-pill" id="pipeline-status-pill">
+        <span class="status-pill__dot" id="pipeline-status-dot"></span>
+        <span id="pipeline-status-text">系统就绪</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="content">
+      <div class="scenes-bar" id="scenes-bar" aria-label="消费场景"></div>
+
+      <div class="content__header">
+        <h2 class="content__title" id="content-title">热门推荐</h2>
+        <div class="content__meta" id="content-meta">正在加载…</div>
+      </div>
+
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <aside class="sidebar" aria-label="Agent 流水线">
+      <div class="sidebar__header">
+        <h3 class="sidebar__title">Agent 流水线</h3>
+        <button id="run-pipeline-btn" class="btn-primary" type="button">立即跑流水线</button>
+      </div>
+      <div class="agents" id="agents"></div>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__left">
+      <span id="pipeline-meta">流水线状态：初始化中…</span>
+    </div>
+    <div class="footer__right">
+      <span>© 热点商城 · 智能导购 · 像素商品图加速渲染</span>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
